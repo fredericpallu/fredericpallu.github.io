@@ -1,9 +1,0 @@
-# robots.txt pour le site personnel de Frédéric Pallu
-# Objectif : autoriser l'indexation complète du site par tous les moteurs de recherche
-# et signaler l'emplacement du plan de site XML.
-
-User-agent: *
-Allow: /
-
-# Emplacement du sitemap
-Sitemap: https://fredericpallu.github.io/sitemap.xml
