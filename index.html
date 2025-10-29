@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="google-site-verification" content="cje2meFRnYD2tDuw8_FmJrXHaD0GMI9ABEjOfknIYvk">
   <title>Frédéric Pallu – Ingénieur général des Mines | Biodiversité & Transformation écologique – IMT Atlantique</title>
-  <meta name="description" content="Page professionnelle de Frédéric Pallu (IMT Atlantique) : biodiversité, transformation écologique et sociétale, innovation et enseignement supérieur. Liens, CV, archives et observations naturalistes.">
+  <meta name="description" content="Page professionnelle de Frédéric Pallu (IMT Atlantique) : biodiversité, transformation écologique et sociétale, innovation et enseignement supérieur. Liens, CV, archives, observations naturalistes et contact.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="https://fredericpallu.github.io/">
@@ -15,14 +15,14 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Frédéric Pallu – Biodiversité & Transformation écologique">
-  <meta property="og:description" content="Profil, CV, liens professionnels et actions biodiversité à IMT Atlantique.">
+  <meta property="og:description" content="Profil, CV, liens professionnels, actions biodiversité et contact.">
   <meta property="og:url" content="https://fredericpallu.github.io/">
   <meta property="og:image" content="https://fredericpallu.github.io/PALLU%20Frederic%2020251028%20FT%20Lisa%20award.jpg">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Frédéric Pallu – Biodiversité & Transformation écologique">
-  <meta name="twitter:description" content="Profil, CV, liens professionnels et actions biodiversité à IMT Atlantique.">
+  <meta name="twitter:description" content="Profil, CV, liens professionnels, actions biodiversité et contact.">
   <meta name="twitter:image" content="https://fredericpallu.github.io/PALLU%20Frederic%2020251028%20FT%20Lisa%20award.jpg">
 
   <!-- Données structurées Person -->
@@ -32,6 +32,7 @@
     "@type": "Person",
     "name": "Frédéric Pallu",
     "jobTitle": "Ingénieur général des Mines",
+    "email": "mailto:frederic.pallu@mines.org",
     "affiliation": {
       "@type": "CollegeOrUniversity",
       "name": "IMT Atlantique",
@@ -43,7 +44,13 @@
       "https://www.imt-atlantique.fr/en/person/frederic-pallu",
       "https://www.linkedin.com/in/fredericpallu",
       "https://www.inaturalist.org/observations?place_id=any&user_id=fredericnantes&verifiable=any"
-    ]
+    ],
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "contactType": "Personal",
+      "email": "mailto:frederic.pallu@mines.org",
+      "availableLanguage": ["fr", "en"]
+    }]
   }
   </script>
 
@@ -54,7 +61,7 @@
     "@type":"WebPage",
     "url":"https://fredericpallu.github.io/",
     "name":"Frédéric Pallu – Biodiversité & Transformation écologique",
-    "description":"Page professionnelle de Frédéric Pallu (IMT Atlantique) : biodiversité, transformation écologique et sociétale, innovation et enseignement supérieur.",
+    "description":"Page professionnelle de Frédéric Pallu : biodiversité, transformation écologique et sociétale, innovation et enseignement supérieur.",
     "inLanguage":"fr-FR",
     "isPartOf":{
       "@type":"WebSite",
@@ -96,11 +103,16 @@
       margin: 1rem 0 1.5rem;
     }
     nav.toc ul { margin: .25rem 0 .25rem 1rem; }
-    figure { margin: 1rem 0; }
-    figcaption { font-size: .9em; color: var(--muted); }
     ul { padding-left: 1.25rem; }
     footer { margin-top: 3rem; font-size: 0.92em; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 12px; }
     .meta { color: var(--muted); font-size: .92em; }
+    .contact-actions { display:flex; gap:.5rem; align-items:center; flex-wrap: wrap; }
+    .btn {
+      display:inline-block; padding:.5rem .75rem; border:1px solid var(--c2);
+      border-radius:8px; text-decoration:none; cursor:pointer;
+    }
+    .btn:hover { background:#f0fbfd; }
+    .copy-ok { color: #0a7a2d; font-size: .92em; margin-left:.25rem; display:none; }
   </style>
 </head>
 
@@ -118,6 +130,7 @@
       <li><a href="#cv" title="Aller au CV">CV</a></li>
       <li><a href="#episodes" title="Aller aux épisodes Internet années 1990">Épisodes Internet (années 1990)</a></li>
       <li><a href="#obs" title="Aller aux observations naturalistes">Observations naturalistes</a></li>
+      <li><a href="#contact" title="Aller au contact">Contact</a></li>
     </ul>
   </nav>
 
@@ -209,11 +222,11 @@
       </ul>
     </section>
 
-    <p class="meta">Dernière mise à jour&nbsp;: 29 octobre 2025.</p>
-  </main>
+    <section id="contact" aria-labelledby="h2-contact">
+      <h2 id="h2-contact">Contact</h2>
+      <p>Vous pouvez me joindre directement par e-mail&nbsp;:</p>
 
-  <footer role="contentinfo">
-    <p>© 2025 – Frédéric Pallu. Page personnelle hébergée sur GitHub Pages (référencement & archivage).</p>
-  </footer>
-</body>
-</html>
+      <div class="contact-actions" role="group" aria-label="Actions de contact">
+        <!-- Lien mailto avec tag d'identification -->
+        <a class="btn" href="mailto:frederic.pallu@mines.org?subject=%5BGitHubProfile%5D%20Contact%20depuis%20fredericpallu.github.io&body=Bonjour%20Fr%C3%A9d%C3%A9ric%2C%0A%0ACe%20message%20a%20%C3%A9t%C3%A9%20%C3%A9mis%20depuis%20votre%20profil%20GitHub%20Pages%20%28https%3A%2F%2Ffredericpallu.github.io%2F%29.%0A%0AObjet%20:%20%0A%0AMessage%20:%20"
+           title=
