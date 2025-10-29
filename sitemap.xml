@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Page principale -->
+  <url>
+    <loc>https://fredericpallu.github.io/</loc>
+    <lastmod>2025-10-29</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- CV PDF -->
+  <url>
+    <loc>https://fredericpallu.github.io/CVFredericPallu_septembre2025_V1.1.pdf</loc>
+    <lastmod>2025-10-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Image illustrative -->
+  <url>
+    <loc>https://fredericpallu.github.io/PALLU%20Frederic%2020251028%20FT%20Lisa%20award.jpg</loc>
+    <lastmod>2025-10-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Fichier robots.txt -->
+  <url>
+    <loc>https://fredericpallu.github.io/robots.txt</loc>
+    <lastmod>2025-10-29</lastmod>
+    <priority>0.3</priority>
+  </url>
+</urlset>
