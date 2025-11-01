@@ -24,7 +24,7 @@
   <meta name="twitter:description" content="Parcours académique et MOOCs certifiants en transformation écologique, biodiversité, écologie, systèmes Terre, data et IA.">
   <meta name="twitter:image" content="https://fredericpallu.github.io/og/og-biodiversite.jpg">
 
-  <!-- JSON-LD : Person + WebPage -->
+  <!-- JSON-LD : Person + WebPage + Credentials -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -56,6 +56,14 @@
           "data science",
           "visualisation de données",
           "intelligence artificielle"
+        ],
+        "hasCredential": [
+          {"@id": "https://fredericpallu.github.io/#cred-papaco-se"},
+          {"@id": "https://fredericpallu.github.io/#cred-planetary-boundaries"},
+          {"@id": "https://fredericpallu.github.io/#cred-pedrr-nbs"},
+          {"@id": "https://fredericpallu.github.io/#cred-lpo-ambassadeur"},
+          {"@id": "https://fredericpallu.github.io/#cred-llms"},
+          {"@id": "https://fredericpallu.github.io/#cred-essec-changement"}
         ]
       },
       {
@@ -67,6 +75,74 @@
         "inLanguage": "fr",
         "about": { "@id": "https://fredericpallu.github.io/#person" },
         "isPartOf": { "@type": "WebSite", "url": "https://fredericpallu.github.io/" }
+      },
+
+      /* Credentials */
+      {
+        "@type": "EducationalOccupationalCredential",
+        "@id": "https://fredericpallu.github.io/#cred-papaco-se",
+        "name": "MOOC Suivi écologique (IUCN-PAPACO) – certificat",
+        "url": "https://www.mooc-conservation.org/certificates/49d283e5100a4a99b6a41ab7ac4f0882",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "IUCN-PAPACO",
+          "url": "https://www.mooc-conservation.org/"
+        }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "@id": "https://fredericpallu.github.io/#cred-planetary-boundaries",
+        "name": "Planetary Boundaries (SDG Academy/edX) – certificat",
+        "url": "https://courses.edx.org/certificates/28834789d5ae4171b4af5e7b0dc56902",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "SDG Academy",
+          "url": "https://sdgacademy.org/"
+        }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "@id": "https://fredericpallu.github.io/#cred-pedrr-nbs",
+        "name": "Nature-based Solutions for Disaster & Climate Resilience (PEDRR/edX) – certificat",
+        "url": "https://courses.edx.org/certificates/6c996ed8d10c44e9b0236d0270898496",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "PEDRR (UNEP)",
+          "url": "https://pedrr.org/"
+        }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "@id": "https://fredericpallu.github.io/#cred-lpo-ambassadeur",
+        "name": "LPO – Entreprises & biodiversité (parcours ambassadeur) – certificat",
+        "url": "https://drive.google.com/file/d/14lZMOGKppawQEa9Tzbp1w9jZlkVCTHe8/view",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "LPO France",
+          "url": "https://www.lpo.fr/"
+        }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "@id": "https://fredericpallu.github.io/#cred-llms",
+        "name": "Generative AI with Large Language Models (DeepLearning.AI/Coursera) – certificat",
+        "url": "https://www.coursera.org/account/accomplishments/verify/0PW9UW1XVYGD",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "DeepLearning.AI",
+          "url": "https://www.deeplearning.ai/"
+        }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "@id": "https://fredericpallu.github.io/#cred-essec-changement",
+        "name": "Réussir le Changement (ESSEC/Coursera) – certificat",
+        "url": "https://www.coursera.org/account/accomplishments/verify/ZE3N9G4BMNW4",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "ESSEC Business School",
+          "url": "https://www.essec.edu/fr/"
+        }
       }
     ]
   }
@@ -90,7 +166,7 @@
     .contact-actions{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;margin-top:.5rem}
     .btn{display:inline-block;padding:.5rem .75rem;border:1px solid var(--c2);border-radius:8px;text-decoration:none;cursor:pointer}
     .btn:hover{background:#f0fbfd}
-    .copy-ok{color:#0a7a7a;font-size:.92rem;margin-left:.25rem;display:none}
+    .copy-ok{color:#0a7a2d;font-size:.92rem;margin-left:.25rem;display:none}
     em.label{font-style:normal;color:var(--muted)}
     .toc{margin:18px 0}
     .toc .box{border:1px solid var(--rule);border-radius:10px;background:#f7f9fa;padding:14px 16px}
@@ -115,6 +191,7 @@
     <p class="meta">Frédéric Pallu, Ingénieur général des Mines – <a href="https://www.imt-atlantique.fr/fr" rel="noopener">IMT Atlantique</a></p>
   </header>
 
+  <!-- SOMMAIRE -->
   <nav class="toc" aria-label="Sommaire">
     <div class="box">
       <strong>Sommaire</strong>
@@ -144,6 +221,7 @@
   </nav>
 
   <main id="contenu-principal" role="main">
+    <!-- Formations académiques -->
     <section id="academique" aria-labelledby="h2-acad">
       <h2 id="h2-acad">Formations académiques</h2>
       <ul>
@@ -189,9 +267,11 @@
       </ul>
     </section>
 
+    <!-- MOOC & certifications -->
     <section id="mooc" aria-labelledby="h2-mooc">
       <h2 id="h2-mooc">MOOC & certifications</h2>
 
+      <!-- Biodiversité / Écologie -->
       <section id="mooc-bio" aria-labelledby="h3-bio">
         <h3 id="h3-bio">Biodiversité / Écologie</h3>
 
@@ -337,6 +417,7 @@
         </ul>
       </section>
 
+      <!-- Transformation écologique -->
       <section id="mooc-transfo" aria-labelledby="h3-transfo">
         <h3 id="h3-transfo">Transformation écologique</h3>
         <ul>
@@ -379,6 +460,7 @@
         </ul>
       </section>
 
+      <!-- Données & IA -->
       <section id="mooc-data" aria-labelledby="h3-data">
         <h3 id="h3-data">Gestion de données, représentation de données et IA</h3>
         <ul>
@@ -440,6 +522,7 @@
       </section>
     </section>
 
+    <!-- COMPÉTENCES CLÉS -->
     <section id="skills" aria-labelledby="h2-skills">
       <h2 id="h2-skills">Compétences clés</h2>
       <ul>
@@ -462,6 +545,7 @@
       </p>
     </section>
 
+    <!-- CONTACT -->
     <section id="contact" aria-labelledby="h2-contact">
       <h2 id="h2-contact">Contact</h2>
       <p>Vous pouvez me joindre directement par e-mail&nbsp;:</p>
@@ -481,12 +565,14 @@
   </footer>
 
   <script>
+    // Date FR
     (function(){
       var d = new Date(document.lastModified);
       var fr = d.toLocaleDateString('fr-FR', {day:'2-digit', month:'long', year:'numeric'});
       var span = document.getElementById('maj'); if(span) span.textContent = fr;
     })();
 
+    // Copie e-mail
     (function () {
       var btn = document.getElementById('copyMailBtn');
       var ok = document.getElementById('copyOk');
