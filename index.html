@@ -26,7 +26,7 @@
   <meta name="twitter:image" content="https://fredericpallu.github.io/PALLU%20Frederic%2020251028%20FT%20Lisa%20award.jpg">
 
   <!-- Données structurées Person -->
-  <script type="application/ld+json">
+  <script type="application/ld+json" id="ld-person">
   {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -54,8 +54,8 @@
   }
   </script>
 
-  <!-- Données structurées WebPage -->
-  <script type="application/ld+json">
+  <!-- Données structurées WebPage (dateModified sera mise à jour par JS) -->
+  <script type="application/ld+json" id="ld-webpage">
   {
     "@context":"https://schema.org",
     "@type":"WebPage",
@@ -68,7 +68,7 @@
       "name":"fredericpallu.github.io",
       "url":"https://fredericpallu.github.io/"
     },
-    "dateModified":"2025-10-29"
+    "dateModified":"1970-01-01"
   }
   </script>
 
@@ -175,19 +175,19 @@
       </ul>
     </section>
 
-   <section id="cv" aria-labelledby="h2-cv">
-  <h2 id="h2-cv">Curriculum Vitae</h2>
-  <ul>
-    <li>
-      <a href="PALLU_FredericCV_octobre2025.pdf"
-         type="application/pdf"
-         download
-         title="Télécharger le CV de Frédéric Pallu (PDF)">
-         Télécharger mon CV (PDF)
-      </a>
-    </li>
-  </ul>
-</section>
+    <section id="cv" aria-labelledby="h2-cv">
+      <h2 id="h2-cv">Curriculum Vitae</h2>
+      <ul>
+        <li>
+          <a href="PALLU_FredericCV_octobre2025.pdf"
+             type="application/pdf"
+             download
+             title="Télécharger le CV de Frédéric Pallu (PDF)">
+             Télécharger mon CV (PDF)
+          </a>
+        </li>
+      </ul>
+    </section>
 
     <section id="episodes" aria-labelledby="h2-episodes">
       <h2 id="h2-episodes">Quelques épisodes à mi-chemin entre mon CV et l’histoire de l’Internet (années 1990)</h2>
@@ -256,7 +256,8 @@
       <p class="meta">L’objet des messages envoyés via ce lien est préfixé par <strong>[GitHubProfile]</strong> pour faciliter le tri côté messagerie.</p>
     </section>
 
-    <p class="meta">Dernière mise à jour&nbsp;: 29 octobre 2025.</p>
+    <!-- Date visible, remplie automatiquement -->
+    <p class="meta">Dernière mise à jour&nbsp;: <span id="maj"></span>.</p>
   </main>
 
   <footer role="contentinfo">
@@ -287,6 +288,26 @@
             document.body.removeChild(ta);
           }
         });
+      }
+    })();
+
+    // === Date "Dernière mise à jour" + JSON-LD dateModified ===
+    (function () {
+      var d = new Date(document.lastModified);
+      // Affichage FR lisible (ex: 01 novembre 2025)
+      var fr = d.toLocaleDateString('fr-FR', { day:'2-digit', month:'long', year:'numeric' });
+      var span = document.getElementById('maj');
+      if (span) span.textContent = fr;
+
+      // Mise à jour de la donnée structurée WebPage -> dateModified (AAAA-MM-JJ)
+      var iso = new Date(d.getTime() - d.getTimezoneOffset()*60000).toISOString().slice(0,10);
+      var ld = document.getElementById('ld-webpage');
+      if (ld) {
+        try {
+          var data = JSON.parse(ld.textContent);
+          data.dateModified = iso;
+          ld.textContent = JSON.stringify(data, null, 2);
+        } catch (e) { /* si parsing impossible, on n'écrase rien */ }
       }
     })();
   </script>
