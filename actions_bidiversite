@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Actions biodiversité – IMT Atlantique | Frédéric Pallu</title>
+  <meta name="description" content="Actions menées par Frédéric Pallu (IMT Atlantique) pour renforcer la biodiversité sur les campus : haies, mare, fauche tardive, transects, suivis herpéto, partenariats. Liens vers les pages officielles IMT et vers les données.">
+  <link rel="canonical" href="https://fredericpallu.github.io/biodiversite-actions.html">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Frédéric Pallu">
+  <meta name="theme-color" content="#004f3d">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Actions biodiversité – IMT Atlantique | Frédéric Pallu">
+  <meta property="og:description" content="Portfolio d’actions biodiversité sur les campus IMT Atlantique, avec preuves, partenaires et indicateurs.">
+  <meta property="og:url" content="https://fredericpallu.github.io/biodiversite-actions.html">
+  <meta property="og:image" content="https://fredericpallu.github.io/og-biodiversite-actions.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Actions biodiversité – IMT Atlantique | Frédéric Pallu">
+  <meta name="twitter:description" content="Portfolio d’actions biodiversité sur les campus IMT Atlantique, avec preuves, partenaires et indicateurs.">
+  <meta name="twitter:image" content="https://fredericpallu.github.io/og-biodiversite-actions.jpg">
+
+  <!-- JSON-LD: WebPage + ItemList (les items seront complétés en JS) -->
+  <script type="application/ld+json" id="ld-webpage">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Actions biodiversité – IMT Atlantique | Frédéric Pallu",
+    "url": "https://fredericpallu.github.io/biodiversite-actions.html",
+    "inLanguage": "fr-FR",
+    "about": "Actions biodiversité sur les campus IMT Atlantique",
+    "dateModified": "1970-01-01",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "fredericpallu.github.io",
+      "url": "https://fredericpallu.github.io/"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json" id="ld-itemlist">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Actions biodiversité IMT Atlantique",
+    "itemListElement": []
+  }
+  </script>
+
+  <style>
+    :root{
+      --c1:#004f3d; --c2:#007b8f; --text:#222; --muted:#555; --rule:#e4e7ea; --maxw: 980px;
+    }
+    html{scroll-behavior:smooth}
+    body{font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif; color:var(--text); line-height:1.6; margin:0}
+    header, main, footer{max-width:var(--maxw); margin:auto; padding:0 20px}
+    .breadcrumbs{background:#f7f9fa; border-bottom:1px solid var(--rule); padding:8px 20px; font-size:.92rem}
+    .breadcrumbs a{color:var(--c2); text-decoration:none}
+    h1{color:var(--c1); margin:1.25rem 0 .25rem}
+    h2{color:var(--c2); border-bottom:1px solid var(--rule); padding-bottom:6px; margin-top:2rem}
+    h3{margin:1.25rem 0 .25rem}
+    .meta{color:var(--muted); font-size:.92rem}
+    nav.toc{background:#f7f9fa;border:1px solid var(--rule);border-radius:10px;padding:12px 14px;margin:1rem 0 1.5rem}
+    nav.toc ul{margin:.25rem 0 .25rem 1.1rem}
+    .grid{display:grid; gap:14px}
+    @media(min-width:880px){ .grid-2{grid-template-columns:1fr 1fr} }
+    .badge{display:inline-block;border:1px solid var(--rule);border-radius:999px;padding:.15rem .6rem;font-size:.86rem;color:#2b2b2b;background:#fff}
+    .cards{display:grid; gap:16px}
+    @media(min-width:880px){ .cards{grid-template-columns:repeat(2,1fr)} }
+    .card{border:1px solid var(--rule);border-radius:12px;padding:14px;background:#fff}
+    .card h3{margin-top:.2rem}
+    .links a{color:var(--c2); text-decoration:none}
+    .links a:hover{text-decoration:underline}
+    .kpi{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+    .kpi div{border:1px solid var(--rule);border-radius:12px;padding:12px;background:#fff;text-align:center}
+    footer{border-top:1px solid var(--rule); padding:16px 20px; margin-top:28px}
+  </style>
+</head>
+<body>
+  <div class="breadcrumbs" aria-label="Fil d’Ariane">
+    <a href="/">Accueil</a> › <a href="/#biodiversite-observations">Biodiversité</a> › Actions (IMT Atlantique)
+  </div>
+
+  <header>
+    <h1>Actions biodiversité – IMT Atlantique</h1>
+    <p class="meta">Frédéric Pallu, Ingénieur général des Mines – IMT Atlantique</p>
+    <p>
+      Page de synthèse et de preuves de mes actions en faveur de la biodiversité sur les campus d’IMT Atlantique
+      (Nantes, Brest, Rennes), en lien avec la <a href="https://www.imt-atlantique.fr/fr/l-ecole/engagements-politiques/biodiversite-ecosysteme" rel="noopener noreferrer">politique biodiversité de l’école</a>
+      et mon <a href="https://www.imt-atlantique.fr/fr/personne/frederic-pallu" rel="noopener noreferrer">profil IMT Atlantique</a>.
+    </p>
+
+    <nav class="toc" aria-label="Sommaire">
+      <strong>Sommaire</strong>
+      <ul>
+        <li><a href="#preuves-liens">Pages IMT & preuves</a></li>
+        <li><a href="#strategie">Stratégie & gouvernance</a></li>
+        <li><a href="#actions-campus">Actions par campus</a></li>
+        <li><a href="#suivis-donnees">Suivis & données</a></li>
+        <li><a href="#kpis">Indicateurs clés</a></li>
+        <li><a href="#timeline">Chronologie</a></li>
+        <li><a href="#medias">Médias</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenu-principal" role="main">
+    <section id="preuves-liens" class="links" aria-labelledby="h2-preuves">
+      <h2 id="h2-preuves">Pages IMT & documents qui me citent</h2>
+      <ul>
+        <li>Politique biodiversité IMT Atlantique (contact : Frédéric Pallu) — <a href="https://www.imt-atlantique.fr/fr/l-ecole/engagements-politiques/biodiversite-ecosysteme" rel="noopener">lire</a></li>
+        <li>Profil IMT Atlantique — <a href="https://www.imt-atlantique.fr/fr/personne/frederic-pallu" rel="noopener">français</a> • <a href="https://www.imt-atlantique.fr/en/person/frederic-pallu" rel="noopener" hreflang="en">english</a></li>
+        <li>Actu : Dans le sillage des abeilles sauvages — <a href="https://www.imt-atlantique.fr/fr/actualites/dans-le-sillage-des-abeilles-sauvages-pour-renforcer-la-biodiversite-sur-les-campus" rel="noopener">lire</a></li>
+        <li>Actu : Biodiversité & enseignement — <a href="https://www.imt-atlantique.fr/fr/actualites/biodiversite-enseignement" rel="noopener">lire</a></li>
+        <li>ODD 15 (IMT Atlantique) — <a href="https://www.imt-atlantique.fr/fr/l-ecole/ddrs/objectif/odd15" rel="noopener">lire</a></li>
+        <li>Note herpéto (PDF, Nantes, 2024) — <a href="https://www.imt-atlantique.fr/sites/default/files/ecole/ddrs/odd/ODD%2015/BIODIVERSITE-Campus-Nantes-herpeto-IMT-Atl.-V1.1-6-nov-2024_compressed.pdf" rel="noopener">ouvrir</a></li>
+      </ul>
+    </section>
+
+    <section id="strategie" aria-labelledby="h2-strat">
+      <h2 id="h2-strat">Stratégie & gouvernance</h2>
+      <p class="meta">Cadre d’action, partenaires, ancrage ODD 15</p>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Axes de travail</h3>
+          <ul>
+            <li>Trame verte & bleue de site (haies, bosquets, mare, continuités écologiques).</li>
+            <li>Gestion différenciée (fauche tardive, zones refuges, prairies, lisières).</li>
+            <li>Suivis naturalistes (pollinisateurs, herpétofaune, nichoirs, caméras).</li>
+            <li>Pédagogie & recherche (modules TES, projets étudiants, co-construction).</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Partenaires (échantillon)</h3>
+          <p class="meta">À compléter précisément</p>
+          <ul>
+            <li>Bretagne Vivante, LPO, GRETIA, ONIRIS.</li>
+            <li>Nantes Métropole & acteurs territoriaux.</li>
+            <li>Associations et laboratoires partenaires.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="actions-campus" aria-labelledby="h2-actions">
+      <h2 id="h2-actions">Actions par campus</h2>
+
+      <div class="cards">
+        <article class="card" itemscope itemtype="https://schema.org/CreativeWork">
+          <h3 itemprop="name">Nantes — aménagements & gestion</h3>
+          <ul itemprop="text">
+            <li><!-- À REMPLIR --> Haies plantées (linéaire, essences, date), bosquets, restauration de la mare.</li>
+            <li><!-- À REMPLIR --> Plan de fauche tardive (surfaces, calendrier, zones refuges).</li>
+            <li><!-- À REMPLIR --> Signalétique/valorisation (à venir).</li>
+          </ul>
+          <p class="meta">Preuves : photos, plans, PV, posts, PDF.</p>
+        </article>
+
+        <article class="card" itemscope itemtype="https://schema.org/CreativeWork">
+          <h3 itemprop="name">Brest — suivis & habitats</h3>
+          <ul itemprop="text">
+            <li><!-- À REMPLIR --> Nichoirs (types, pose, suivi), tas de bois/pierres, bandes fleuries.</li>
+            <li><!-- À REMPLIR --> Transects pollinisateurs / papillons (protocoles PROPAGE).</li>
+          </ul>
+          <p class="meta">Preuves : tableurs de suivi, exports iNaturalist, photos géolocalisées.</p>
+        </article>
+
+        <article class="card" itemscope itemtype="https://schema.org/CreativeWork">
+          <h3 itemprop="name">Rennes — continuités & pédagogie</h3>
+          <ul itemprop="text">
+            <li><!-- À REMPLIR --> Continuités écologiques et lisières.</li>
+            <li><!-- À REMPLIR --> Intégration dans les modules d’enseignement (TES, intersemestre, etc.).</li>
+          </ul>
+          <p class="meta">Preuves : syllabus, supports de cours, évaluations.</p>
+        </article>
+
+        <article class="card" itemscope itemtype="https://schema.org/CreativeWork">
+          <h3 itemprop="name">Trans-campus — dispositifs communs</h3>
+          <ul itemprop="text">
+            <li><!-- À REMPLIR --> Caméras pièges, protocoles communs, banque d’images.</li>
+            <li><!-- À REMPLIR --> Mutualisation (ex : fauche tardive inter-écoles Chantrerie).</li>
+          </ul>
+          <p class="meta">Preuves : conventions, comptes rendus, articles.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="suivis-donnees" aria-labelledby="h2-donnees">
+      <h2 id="h2-donnees">Suivis & données</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Observations & exports</h3>
+          <ul>
+            <li>iNaturalist — <a href="https://www.inaturalist.org/observations?place_id=any&user_id=fredericnantes&verifiable=any" rel="noopener">mes observations</a>.</li>
+            <li><!-- À REMPLIR --> Exports CSV (pollinisateurs, PROPAGE, herpéto, avifaune).</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Protocoles</h3>
+          <ul>
+            <li><!-- À REMPLIR --> Transects papillons/pollinisateurs (méthode, périodicité).</li>
+            <li><!-- À REMPLIR --> Suivi herpéto (points d’écoute / prospections).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="kpis" aria-labelledby="h2-kpi">
+      <h2 id="h2-kpi">Indicateurs clés (résumé)</h2>
+      <div class="kpi">
+        <div><strong id="kpi-actions">—</strong><br><span class="meta">actions publiées</span></div>
+        <div><strong id="kpi-habitats">—</strong><br><span class="meta">habitats créés/restaurés</span></div>
+        <div><strong id="kpi-suivis">—</strong><br><span class="meta">protocoles de suivi</span></div>
+        <div><strong id="kpi-partenaires">—</strong><br><span class="meta">partenaires impliqués</span></div>
+      </div>
+      <p class="meta">Ces valeurs se mettront à jour quand tu compléteras les listes ci-dessus.</p>
+    </section>
+
+    <section id="timeline" aria-labelledby="h2-tl">
+      <h2 id="h2-tl">Chronologie (sélection)</h2>
+      <ul>
+        <li><span class="badge">2025</span> <!-- À REMPLIR --> …</li>
+        <li><span class="badge">2024</span> <!-- À REMPLIR --> …</li>
+        <li><span class="badge">2023</span> <!-- À REMPLIR --> …</li>
+        <li><span class="badge">2022</span> <!-- À REMPLIR --> …</li>
+      </ul>
+    </section>
+
+    <section id="medias" aria-labelledby="h2-medias">
+      <h2 id="h2-medias">Médias & audio</h2>
+      <p>🎧 Bilan 2022-2025 biodiversité à IMT Atlantique</p>
+      <audio controls preload="none">
+        <source src="https://fredericpallu.github.io/20251031BIODIVERSITEbilanIMTatlantiqueCompressed.mp3" type="audio/mpeg">
+        Votre navigateur ne supporte pas la lecture audio.
+      </audio>
+      <p><a href="https://fredericpallu.github.io/20251031BIODIVERSITEbilanIMTatlantiqueCompressed.mp3" target="_blank" rel="noopener">Télécharger le MP3</a></p>
+    </section>
+
+    <section id="contact" aria-labelledby="h2-contact">
+      <h2 id="h2-contact">Contact</h2>
+      <p>✉️ <a href="mailto:frederic.pallu@mines.org?subject=%5BBiodiversite-Actions%5D%20Contact%20depuis%20GitHub%20Pages">frederic.pallu@mines.org</a></p>
+      <p class="meta">Dernière mise à jour : <span id="maj"></span>.</p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>© 2025 – Frédéric Pallu. Page personnelle hébergée sur GitHub Pages.</p>
+  </footer>
+
+  <script>
+    // 1) Date visible + JSON-LD dateModified
+    (function(){
+      var d = new Date(document.lastModified);
+      var fr = d.toLocaleDateString('fr-FR', {day:'2-digit', month:'long', year:'numeric'});
+      var span = document.getElementById('maj'); if(span) span.textContent = fr;
+      var iso = new Date(d.getTime() - d.getTimezoneOffset()*60000).toISOString().slice(0,10);
+      var ld = document.getElementById('ld-webpage');
+      if(ld){ try{ var data = JSON.parse(ld.textContent); data.dateModified = iso; ld.textContent = JSON.stringify(data, null, 2);}catch(e){} }
+    })();
+
+    // 2) Construire l’ItemList JSON-LD à partir des cartes (titres + 1re puce)
+    (function(){
+      var cards = Array.from(document.querySelectorAll('#actions-campus .card'));
+      var items = cards.map(function(card, idx){
+        var title = card.querySelector('h3')?.textContent?.trim() || 'Action';
+        var first = card.querySelector('ul li')?.textContent?.trim() || '';
+        return {
+          "@type":"ListItem",
+          "position": idx+1,
+          "item": {
+            "@type":"CreativeWork",
+            "name": title,
+            "description": first
+          }
+        };
+      });
+      var el = document.getElementById('ld-itemlist');
+      if(el){ try{ var json = JSON.parse(el.textContent); json.itemListElement = items; el.textContent = JSON.stringify(json, null, 2);}catch(e){} }
+      // KPIs rapides
+      document.getElementById('kpi-actions').textContent = cards.length;
+      document.getElementById('kpi-partenaires').textContent = 4; // ajuste si besoin
+    })();
+  </script>
+</body>
+</html>
