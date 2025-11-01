@@ -16,7 +16,6 @@
   <meta property="og:title" content="Actions biodiversité – IMT Atlantique | Frédéric Pallu">
   <meta property="og:description" content="Portfolio d’actions biodiversité sur les campus IMT Atlantique, avec preuves, partenaires et indicateurs.">
   <meta property="og:url" content="https://fredericpallu.github.io/actions_biodiversite.html">
-  <!-- Remplace l'image si tu en as une dédiée -->
   <meta property="og:image" content="https://fredericpallu.github.io/PALLU%20Frederic%2020251028%20FT%20Lisa%20award.jpg">
 
   <!-- Twitter -->
@@ -49,7 +48,7 @@
     "description":"Actions biodiversité sur les campus IMT Atlantique (Nantes, Brest, Rennes) : habitats, suivis, partenariats, indicateurs.",
     "isPartOf":{"@type":"WebSite","name":"fredericpallu.github.io","url":"https://fredericpallu.github.io/"},
     "about":{"@type":"Thing","name":"Biodiversité IMT Atlantique"},
-    "mentions":[{"@id":"https://fredericpallu.github.io/actions_biodiversite.html#mentions"}],
+    "mentions":[{"@id":"https://fredericpallu.github.io/actions_biodiversite.html#references"}],
     "dateModified":"1970-01-01"
   }
   </script>
@@ -86,6 +85,12 @@
     .kpi{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
     .kpi div{border:1px solid var(--rule);border-radius:12px;padding:12px;background:#fff;text-align:center}
     footer{border-top:1px solid var(--rule);padding:16px 20px;margin-top:28px}
+
+    /* Styles pour le bloc Contact (macro) */
+    .contact-actions{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
+    .btn{display:inline-block;padding:.5rem .75rem;border:1px solid var(--c2);border-radius:8px;text-decoration:none;cursor:pointer}
+    .btn:hover{background:#f0fbfd}
+    .copy-ok{color:#0a7a2d;font-size:.92rem;margin-left:.25rem;display:none}
   </style>
 </head>
 <body>
@@ -98,8 +103,8 @@
     <p class="meta">Frédéric Pallu, Ingénieur général des Mines – IMT Atlantique</p>
     <p>
       Cette page synthétise les <strong>actions biodiversité</strong> que j'ai menées sur les campus de Nantes, Brest et Rennes, d'IMT Atlantique
-      en cohérence avec la <a href="https://www.imt-atlantique.fr/fr/l-ecole/engagements-politiques/biodiversite-ecosysteme" rel="noopener">politique biodiversité d’IMT Atlantique</a> dont je suis le <strong>contact cité</strong>,
-      et ma <a href="https://www.imt-atlantique.fr/fr/personne/frederic-pallu" rel="noopener">fiche institutionnelle</a>.
+      en cohérence avec la <a href="https://www.imt-atlantique.fr/fr/l-ecole/engagements-politiques/biodiversite-ecosysteme" rel="noopener noreferrer">politique biodiversité d’IMT Atlantique</a> dont je suis le <strong>contact cité</strong>,
+      et ma <a href="https://www.imt-atlantique.fr/fr/personne/frederic-pallu" rel="noopener noreferrer">fiche institutionnelle</a>.
     </p>
     <nav class="toc" aria-label="Sommaire">
       <strong>Sommaire</strong>
@@ -120,12 +125,13 @@
     <section id="references" class="links" aria-labelledby="h2-refs">
       <h2 id="h2-refs">Références IMT & preuves</h2>
       <ul id="mentions-list">
-        <li>Politique biodiversité IMT Atlantique (contact : Frédéric Pallu) — <a href="https://www.imt-atlantique.fr/fr/l-ecole/engagements-politiques/biodiversite-ecosysteme" rel="noopener">lire</a></li>
-        <li>Fiche IMT Atlantique — <a href="https://www.imt-atlantique.fr/fr/personne/frederic-pallu" rel="noopener">français</a> • <a href="https://www.imt-atlantique.fr/en/person/frederic-pallu" rel="noopener" hreflang="en">english</a></li>
-        <li>Actu : Dans le sillage des abeilles sauvages — <a href="https://www.imt-atlantique.fr/fr/actualites/dans-le-sillage-des-abeilles-sauvages-pour-renforcer-la-biodiversite-sur-les-campus" rel="noopener">lire</a></li>
-        <li>Actu : Biodiversité & enseignement — <a href="https://www.imt-atlantique.fr/fr/actualites/biodiversite-enseignement" rel="noopener">lire</a></li>
-        <li>ODD 15 (IMT Atlantique) — <a href="https://www.imt-atlantique.fr/fr/l-ecole/ddrs/objectif/odd15" rel="noopener">lire</a></li>
-        <li>Note herpéto Nantes (PDF, 2024) — <a href="https://www.imt-atlantique.fr/sites/default/files/ecole/ddrs/odd/ODD%2015/BIODIVERSITE-Campus-Nantes-herpeto-IMT-Atl.-V1.1-6-nov-2024_compressed.pdf" rel="noopener">ouvrir</a></li>
+        <li><a href="https://www.imt-atlantique.fr/fr/l-ecole/engagements-politiques/biodiversite-ecosysteme" rel="noopener noreferrer">Politique biodiversité IMT Atlantique (contact : Frédéric Pallu)</a></li>
+        <li><a href="https://www.imt-atlantique.fr/fr/personne/frederic-pallu" rel="noopener noreferrer">Fiche IMT Atlantique – Fr (institutionnel)</a></li>
+        <li><a href="https://www.imt-atlantique.fr/en/person/frederic-pallu" rel="noopener noreferrer" hreflang="en">IMT Atlantique profile – En</a></li>
+        <li><a href="https://www.imt-atlantique.fr/fr/actualites/dans-le-sillage-des-abeilles-sauvages-pour-renforcer-la-biodiversite-sur-les-campus" rel="noopener noreferrer">Dans le sillage des abeilles sauvages (actualité)</a></li>
+        <li><a href="https://www.imt-atlantique.fr/fr/actualites/biodiversite-enseignement" rel="noopener noreferrer">Biodiversité & enseignement (actualité)</a></li>
+        <li><a href="https://www.imt-atlantique.fr/fr/l-ecole/ddrs/objectif/odd15" rel="noopener noreferrer">Objectif ODD 15 – IMT Atlantique</a></li>
+        <li><a href="https://www.imt-atlantique.fr/sites/default/files/ecole/ddrs/odd/ODD%2015/BIODIVERSITE-Campus-Nantes-herpeto-IMT-Atl.-V1.1-6-nov-2024_compressed.pdf" rel="noopener noreferrer">Note herpéto Nantes (PDF, 2024)</a></li>
       </ul>
     </section>
 
@@ -145,9 +151,9 @@
         <div class="card">
           <h3>Partenaires</h3>
           <ul>
-            <li><!-- À REMPLIR --> Bretagne Vivante, LPO, GRETIA, ONIRIS…</li>
-            <li><!-- À REMPLIR --> Collectivités : Nantes Métropole, autres.</li>
-            <li><!-- À REMPLIR --> Associations, laboratoires, écoles voisines.</li>
+            <li><a href="https://www.bretagne-vivante.org/" rel="noopener noreferrer">Bretagne Vivante</a>, <a href="https://www.lpo44.org/" rel="noopener noreferrer">LPO 44</a>, <a href="https://www.gretia.org/" rel="noopener noreferrer">GRETIA</a>, <a href="https://www.oniris-nantes.fr/" rel="noopener noreferrer">ONIRIS</a></li>
+            <li><a href="https://www.nantesmetropole.fr/" rel="noopener noreferrer">Nantes Métropole</a> <!-- + autres collectivités si besoin --></li>
+            <li>Associations, laboratoires, écoles voisines (Chantrerie) — liens ajoutés au fil des actions.</li>
           </ul>
         </div>
       </div>
@@ -157,6 +163,28 @@
     <section id="actions" aria-labelledby="h2-actions">
       <h2 id="h2-actions">Actions par campus</h2>
       <div class="cards" id="actions-cards">
+
+        <!-- TRANS-CAMPUS -->
+        <article class="card" itemscope itemtype="https://schema.org/CreativeWork">
+          <h3 itemprop="name">Trans-campus — dispositifs communs</h3>
+          <ul itemprop="text">
+            <li>Caméras-pièges, banque d’images et protocole commun de suivi naturaliste.</li>
+            <li>Mutualisation sur le site de la Chantrerie : fauche tardive et échanges de pratiques inter-écoles.</li>
+          </ul>
+          <p class="meta">Preuves : conventions, comptes rendus, articles, posts.</p>
+        </article>
+
+        <!-- BREST -->
+        <article class="card" itemscope itemtype="https://schema.org/CreativeWork">
+          <h3 itemprop="name">Brest — gestion différenciée et suivis</h3>
+          <ul itemprop="text">
+            <li>Gestion différenciée et plan de tonte raisonnée sur les espaces verts du campus.</li>
+            <li>Mise en place du protocole <strong>PROPAGE</strong> (suivi des pollinisateurs) en lien avec les acteurs locaux.</li>
+          </ul>
+          <p class="meta">Preuves : exports PROPAGE, relevés de terrain, photos géolocalisées.</p>
+        </article>
+
+        <!-- NANTES -->
         <article class="card" itemscope itemtype="https://schema.org/CreativeWork">
           <h3 itemprop="name">Nantes — aménagements & gestion</h3>
           <ul itemprop="text">
@@ -164,18 +192,10 @@
             <li><!-- À REMPLIR --> Haies/bosquets : linéaire, essences locales, dates de plantation.</li>
             <li><!-- À REMPLIR --> Plan de fauche tardive : surfaces, calendrier, zones refuges.</li>
           </ul>
-          <p class="meta">Preuves : plans, CR, photos, PDF, articles IMT.</p>
+          <p class="meta">Preuves : plans, comptes rendus, photos, PDF, articles IMT.</p>
         </article>
 
-        <article class="card" itemscope itemtype="https://schema.org/CreativeWork">
-          <h3 itemprop="name">Brest — suivis & habitats</h3>
-          <ul itemprop="text">
-            <li><!-- À REMPLIR --> Nichoirs (types, nb, dates), bandes fleuries, tas de bois/pierres.</li>
-            <li><!-- À REMPLIR --> Transects pollinisateurs/papillons (PROPAGE) : protocole, fréquence.</li>
-          </ul>
-          <p class="meta">Preuves : exports tableurs/iNaturalist, PV, photos géolocalisées.</p>
-        </article>
-
+        <!-- RENNES -->
         <article class="card" itemscope itemtype="https://schema.org/CreativeWork">
           <h3 itemprop="name">Rennes — continuités & pédagogie</h3>
           <ul itemprop="text">
@@ -185,14 +205,6 @@
           <p class="meta">Preuves : syllabus, supports de cours, évaluations, retours.</p>
         </article>
 
-        <article class="card" itemscope itemtype="https://schema.org/CreativeWork">
-          <h3 itemprop="name">Trans-campus — dispositifs communs</h3>
-          <ul itemprop="text">
-            <li><!-- À REMPLIR --> Caméras-pièges, banque d’images, protocole commun de suivi.</li>
-            <li><!-- À REMPLIR --> Mutualisation Chantrerie (fauche tardive, échanges de pratiques).</li>
-          </ul>
-          <p class="meta">Preuves : conventions, comptes rendus, articles, posts.</p>
-        </article>
       </div>
     </section>
 
@@ -203,15 +215,18 @@
         <div class="card">
           <h3>Observations & exports</h3>
           <ul>
-            <li>iNaturalist — <a href="https://www.inaturalist.org/observations?place_id=any&user_id=fredericnantes&verifiable=any" rel="noopener">mes observations</a></li>
+            <li><a href="https://www.inaturalist.org/projects/imt-atlantique" rel="noopener noreferrer">Inventaire Campus Brest, Nantes, Rennes (projet iNaturalist IMT Atlantique)</a></li>
+            <li><a href="https://www.inaturalist.org/projects/imt-atlantique-campus-nantes" rel="noopener noreferrer">Inventaire Campus Nantes (projet iNaturalist dédié)</a></li>
+            <li>iNaturalist — <a href="https://www.inaturalist.org/observations?place_id=any&user_id=fredericnantes&verifiable=any" rel="noopener noreferrer">mes observations personnelles</a></li>
             <li><!-- À REMPLIR --> Exports CSV (pollinisateurs/PROPAGE, herpéto, avifaune).</li>
           </ul>
         </div>
         <div class="card">
           <h3>Protocoles</h3>
           <ul>
-            <li><!-- À REMPLIR --> Transects papillons/pollinisateurs : méthode, périodicité, créneaux.</li>
-            <li><!-- À REMPLIR --> Suivi herpéto : prospections/écoutes, périmètres, saisonnalité.</li>
+            <li><a href="https://www.vigienature.fr/fr/propage" rel="noopener noreferrer">PROPAGE</a> – suivi des pollinisateurs sauvages (transects papillons / pollinisateurs) : méthode, périodicité, créneaux.</li>
+            <li><a href="https://lashf.org/popreptile/" rel="noopener noreferrer">POPreptiles</a> – suivi herpétofaune (prospection des reptiles) : points d’écoute, périmètres, saisonnalité.</li>
+            <li><a href="https://www.lpo.fr/la-lpo-en-actions/connaissance-des-especes-sauvages/suivis-ornithologiques/oiseaux-communs/stoc" rel="noopener noreferrer">STOC</a> – suivi temporel des oiseaux communs : protocole national par points d’écoute.</li>
           </ul>
         </div>
       </div>
@@ -240,11 +255,23 @@
       </ul>
     </section>
 
-    <!-- CONTACT -->
+    <!-- CONTACT (macro alignée sur index.html) -->
     <section id="contact" aria-labelledby="h2-contact">
       <h2 id="h2-contact">Contact</h2>
-      <p>✉️ <a href="mailto:frederic.pallu@mines.org?subject=%5BActions%20Biodiversite%5D%20Contact%20depuis%20GitHub%20Pages">frederic.pallu@mines.org</a></p>
-      <p class="meta">Dernière mise à jour : <span id="maj"></span>.</p>
+      <p>Vous pouvez me joindre directement par e-mail&nbsp;:</p>
+
+      <div class="contact-actions" role="group" aria-label="Actions de contact">
+        <!-- Lien mailto avec tag d'identification -->
+        <a class="btn" href="mailto:frederic.pallu@mines.org?subject=%5BGitHubProfile%5D%20Contact%20depuis%20fredericpallu.github.io&body=Bonjour%20Fr%C3%A9d%C3%A9ric%2C%0A%0ACe%20message%20a%20%C3%A9t%C3%A9%20%C3%A9mis%20depuis%20votre%20profil%20GitHub%20Pages%20%28https%3A%2F%2Ffredericpallu.github.io%2Factions_biodiversite.html%29.%0A%0AObjet%20:%20%0AMessage%20:%20"
+           title="Envoyer un e-mail avec tag d’identification [GitHubProfile]">✉️ Envoyer un message</a>
+
+        <!-- Bouton copier l'adresse -->
+        <button class="btn" id="copyMailBtn" type="button" aria-label="Copier l’adresse e-mail">Copier l’e-mail</button>
+        <span id="copyOk" class="copy-ok" aria-live="polite">Copié ✓</span>
+      </div>
+
+      <p class="meta">L’objet des messages envoyés via ce lien est préfixé par <strong>[GitHubProfile]</strong> pour faciliter le tri côté messagerie.<br>
+      Dernière mise à jour : <span id="maj"></span>.</p>
     </section>
   </main>
 
@@ -253,7 +280,7 @@
   </footer>
 
   <script>
-    // 1) Date visible + JSON-LD dateModified
+    // 1) Date visible + JSON-LD dateModified (automatique)
     (function(){
       var d = new Date(document.lastModified);
       var fr = d.toLocaleDateString('fr-FR', {day:'2-digit', month:'long', year:'numeric'});
@@ -282,9 +309,9 @@
       var el = document.getElementById('ld-itemlist');
       if(el){ try{ var json = JSON.parse(el.textContent); json.itemListElement = items; el.textContent = JSON.stringify(json, null, 2);}catch(e){} }
 
-      // KPIs rapides (à ajuster si tu renseignes des chiffres précis ailleurs)
-      document.getElementById('kpi-actions').textContent = cards.length;
-      // Laisse ces trois-là à compléter manuellement si tu veux éviter des approximations
+      // KPI simple : nombre de cartes "actions"
+      var kpiActions = document.getElementById('kpi-actions');
+      if(kpiActions){ kpiActions.textContent = cards.length; }
     })();
 
     // 3) JSON-LD des mentions (références)
@@ -298,10 +325,47 @@
         {"name":"Objectif ODD 15 – IMT Atlantique","url":"https://www.imt-atlantique.fr/fr/l-ecole/ddrs/objectif/odd15"},
         {"name":"Note herpéto Nantes (PDF, 2024)","url":"https://www.imt-atlantique.fr/sites/default/files/ecole/ddrs/odd/ODD%2015/BIODIVERSITE-Campus-Nantes-herpeto-IMT-Atl.-V1.1-6-nov-2024_compressed.pdf"}
       ];
-      // Tu peux ajouter/supprimer des éléments ci-dessus si besoin
-      var list = document.getElementById('mentions-list');
-      // JSON-LD ItemList pour ces mentions
+
       var itemList = {
         "@context":"https://schema.org",
         "@type":"ItemList",
-        "@id":"https://fredericpallu.github.io/actions_biodiversit_
+        "@id":"https://fredericpallu.github.io/actions_biodiversite.html#references",
+        "name":"Mentions officielles IMT Atlantique – Frédéric Pallu",
+        "itemListElement": mentions.map(function(m,i){
+          return {"@type":"ListItem","position":i+1,"item":{"@type":"WebPage","name":m.name,"url":m.url}};
+        })
+      };
+
+      var script = document.createElement('script');
+      script.type = "application/ld+json";
+      script.textContent = JSON.stringify(itemList, null, 2);
+      document.head.appendChild(script);
+    })();
+
+    // 4) Copie de l’adresse e-mail (macro contact)
+    (function () {
+      var btn = document.getElementById('copyMailBtn');
+      var ok = document.getElementById('copyOk');
+      if (btn) {
+        btn.addEventListener('click', function () {
+          var mail = 'frederic.pallu@mines.org';
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(mail).then(function () {
+              ok.style.display = 'inline';
+              setTimeout(function(){ ok.style.display = 'none'; }, 1800);
+            });
+          } else {
+            var ta = document.createElement('textarea');
+            ta.value = mail;
+            document.body.appendChild(ta);
+            ta.select();
+            try { document.execCommand('copy'); ok.style.display = 'inline'; setTimeout(function(){ ok.style.display = 'none'; }, 1800); }
+            catch(e) {}
+            document.body.removeChild(ta);
+          }
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
