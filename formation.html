@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Formations & MOOCs – Transformation écologique & Biodiversité | Frédéric Pallu</title>
-  <meta name="description" content="Formations académiques et MOOCs certifiants suivis par Frédéric Pallu : transformation écologique, biodiversité, écologie, systèmes Terre, gestion et représentation de données, IA. Classement antéchronologique et liens de certification.">
+  <meta name="description" content="Formations académiques et MOOCs certifiants suivis par Frédéric Pallu : transformation écologique, biodiversité, écologie, systèmes Terre, gestion et représentation de données, IA.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="https://fredericpallu.github.io/formations_biodiversite.html">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -43,6 +43,13 @@
     .btn:hover{background:#f0fbfd}
     .copy-ok{color:#0a7a2d;font-size:.92rem;margin-left:.25rem;display:none}
     em.label{font-style:normal;color:var(--muted)}
+    /* Sommaire */
+    .toc{margin:18px 0}
+    .toc .box{border:1px solid var(--rule);border-radius:10px;background:#f7f9fa;padding:14px 16px}
+    .toc strong{display:block;margin-bottom:.35rem}
+    .toc ul{margin:0;padding-left:1.1rem}
+    .toc a{color:var(--c2);text-decoration:none}
+    .toc a:hover{text-decoration:underline}
   </style>
 </head>
 <body>
@@ -55,20 +62,34 @@
     <p class="meta">Frédéric Pallu, Ingénieur général des Mines – IMT Atlantique</p>
   </header>
 
+  <!-- PAVÉ DE NAVIGATION -->
+  <nav class="toc" aria-label="Sommaire">
+    <div class="box">
+      <strong>Sommaire</strong>
+      <ul>
+        <li><a href="#academique">Formations académiques</a></li>
+        <li><a href="#moocs-bio">MOOC & certifications – Biodiversité / Écologie</a></li>
+        <li><a href="#transfo-changement">Transformation écologique, éthique & management du changement</a></li>
+        <li><a href="#moocs-data">Gestion de données, représentation de données et intelligence artificielle</a></li>
+        <li><a href="#skills">Compétences clés</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <main id="contenu-principal" role="main">
     <!-- FORMATIONS ACADÉMIQUES -->
     <section id="academique" aria-labelledby="h2-acad">
-      <h2 id="h2-acad">Formations académiques (antéchronologique)</h2>
+      <h2 id="h2-acad">Formations académiques</h2>
       <ul>
         <li>
           <strong>2024 — <a href="https://masters.osupytheas.fr/formations/desu-bvt/" rel="noopener">DESU « Biodiversités, Villes & Territoires » (M1)</a></strong>
           — <a href="https://sciences.univ-amu.fr/fr" rel="noopener">Aix-Marseille Université</a> /
           <a href="https://www.imbe.fr/fr/" rel="noopener">Institut Méditerranéen de Biodiversité et d’Écologie marine et continentale (IMBE)</a>
           <span class="badge">mention Bien</span><br>
-          Intégration de la biodiversité dans l’aménagement urbain/territorial : diagnostics, continuités écologiques, gouvernance et outils opérationnels. Formation adossée à la recherche (IMBE).<br>
-          <em class="label">Compétences&nbsp;:</em> écologie urbaine · trames écologiques · ingénierie écologique · politiques publiques · concertation · évaluation environnementale.<br>
-          (Validation de la <a href="https://www.ecologie.gouv.fr/direction-generale-lamenagement-du-logement-et-de-la-nature-dgaln" rel="noopener noreferrer">DGALN</a>).<br>
-          <em>Mémoire&nbsp;:</em> « Abeilles domestiques et pollinisateurs sauvages : concilier les enjeux sur le territoire de Nantes ».
+          Intégration de la biodiversité dans l’aménagement urbain et territorial, avec appui scientifique de l’IMBE.<br>
+          <em class="label">Compétences&nbsp;:</em> écologie urbaine · trames écologiques (TVB) · ingénierie écologique · politiques publiques · concertation territoriale.<br>
+          <em>Mémoire&nbsp;:</em> « Abeilles domestiques et pollinisateurs sauvages : concilier les enjeux sur le territoire de Nantes ». (Validation <a href="https://www.ecologie.gouv.fr/direction-generale-lamenagement-du-logement-et-de-la-nature-dgaln" rel="noopener">DGALN</a>)
         </li>
 
         <li>
@@ -76,32 +97,39 @@
           — <a href="https://scifa.univ-lorraine.fr/content/campus" rel="noopener">Université de Lorraine</a> /
           <a href="https://liec.univ-lorraine.fr/" rel="noopener">Laboratoire Interdisciplinaire des Environnements Continentaux (LIEC)</a>
           <span class="badge">mention Très Bien — major</span><br>
-          Bases scientifiques de l’écologie des milieux continentaux, méthodes de terrain, analyse des pressions et leviers de conservation à l’échelle des territoires.<br>
-          <em class="label">Compétences&nbsp;:</em> écologie des communautés · bioindication · suivi naturaliste · SIG de base · gestion adaptative · médiation scientifique.<br>
+          Fondamentaux de l’écologie appliquée aux territoires et formation à la gestion des milieux naturels.<br>
+          <em class="label">Compétences&nbsp;:</em> écologie des communautés · bioindication · suivi naturaliste · SIG de base · gestion adaptative.<br>
           <em>mémoire&nbsp;:</em> « quel corpus de formation à la biodiversité pour les grandes écoles qui ne sont pas sur le champ du vivant ? ».
         </li>
 
         <li>
           <strong>2008 — Intégration au Corps des Télécoms (fusionné dans le Corps des Mines) – Master 2</strong>
           — <a href="https://www.telecom-paris.fr/" rel="noopener">Télécom Paris</a>.<br>
-          Parcours encadrant/expert État : stratégie publique, management de l’innovation, régulation des réseaux et politiques industrielles.<br>
-          <em class="label">Compétences&nbsp;:</em> politiques publiques · management de projet · stratégie techno · évaluation socio-économique.
+          Formation d’expertise en régulation, innovation et politiques publiques technologiques.<br>
+          <em class="label">Compétences&nbsp;:</em> stratégie techno · politiques publiques · management de l’innovation.
+        </li>
+
+        <li>
+          <strong>2000 — <a href="https://www.sciencespo-rennes.fr/" rel="noopener">Institut d’études politiques de Rennes</a></strong>
+          — Cycle préparatoire ÉNA (Law, Economics, Politics). Admissibilité ÉNA 2000.<br>
+          Préparation aux concours administratifs supérieurs (droit public, économie, politiques publiques, géopolitique).<br>
+          <em class="label">Compétences&nbsp;:</em> droit public · politiques publiques · modèles économiques · stratégie · gestion du changement.
         </li>
 
         <li>
           <strong>1988 — Diplôme d’Université « Métiers de l’eau » (L2)</strong>
           — <a href="https://www.univ-lyon1.fr/" rel="noopener">Université Claude Bernard Lyon 1</a> /
           <a href="https://umr5023.univ-lyon1.fr/" rel="noopener">Laboratoire d’Écologie des Hydrosystèmes Naturels et Anthropisés (LEHNA – UMR 5023)</a>.<br>
-          Hydrologie opérationnelle et gestion des hydrosystèmes : débits réservés, éclusées, compromis énergie-écosystèmes, méthodes d’optimisation.<br>
-          <em class="label">Compétences&nbsp;:</em> hydrologie · modélisation simple · analyse multi-critères · écologie des cours d’eau.<br>
-          <em>Mémoire&nbsp;:</em> « Optimisation des éclusées sur les barrages de la basse vallée du Rhône entre Lyon et la Méditerranée ». Organisme accueillant : EDF / GRPH.
+          Hydrologie opérationnelle et gestion écologique des hydrosystèmes fluviaux (éclusées, débits réservés, compromis énergie-écosystèmes).<br>
+          <em class="label">Compétences&nbsp;:</em> hydrologie · écologie des cours d’eau · modélisation simple · analyse multi-critères.<br>
+          <em>Mémoire&nbsp;:</em> « Optimisation des éclusées sur les barrages de la basse vallée du Rhône entre Lyon et la Méditerranée ». EDF / GRPH.
         </li>
       </ul>
     </section>
 
     <!-- MOOCS BIODIVERSITÉ -->
     <section id="moocs-bio" aria-labelledby="h2-bio">
-      <h2 id="h2-bio">MOOC & certifications – Biodiversité / Écologie (antéchronologique)</h2>
+      <h2 id="h2-bio">MOOC & certifications – Biodiversité / Écologie</h2>
 
       <!-- Suivi écologique & conservation -->
       <h3>Suivi écologique & conservation</h3>
@@ -109,7 +137,7 @@
         <li>
           <strong>2025 — <a href="https://papaco.org/mooc-mooc-suivi-ecologique/" rel="noopener">MOOC Suivi écologique</a></strong>
           — <a href="https://www.iucn.org/our-union/commissions/world-commission-protected-areas" rel="noopener">IUCN-PAPACO</a>.<br>
-          Conception de protocoles de suivi, indicateurs, effort d’échantillonnage et analyse pour l’aide à la décision en aires protégées.<br>
+          Conception de protocoles de suivi, indicateurs et analyses pour l’aide à la décision en aires protégées.<br>
           <em class="label">Compétences&nbsp;:</em> protocoles de suivi · indicateurs biodiversité · gestion adaptative · analyse de données écologiques.
           <span> · Certification :
             <a href="<!-- https://fredericpallu.github.io/attestations/PAPACO_suivi_ecologique_attestation.pdf -->">attestation</a>
@@ -118,7 +146,7 @@
         <li>
           <strong>2023 — <a href="https://www.trameverteetbleue.fr/mooc-trame-verte-bleue" rel="noopener">MOOC Trame verte et bleue</a></strong>
           — <a href="https://ofb.gouv.fr" rel="noopener">Office français de la biodiversité</a> & <a href="https://www.tela-botanica.org/" rel="noopener">Tela Botanica</a>.<br>
-          Continuités écologiques : TVB, réservoirs de biodiversité, corridors, déclinaison réglementaire et opérationnelle locale.<br>
+          Continuités écologiques : TVB, réservoirs, corridors, déclinaison réglementaire et opérationnelle locale.<br>
           <em class="label">Compétences&nbsp;:</em> connectivité écologique · cartographie · planification territoriale · concertation.
           <span> · Certification :
             <a href="<!-- https://fredericpallu.github.io/attestations/OFB_TVB_attestation.pdf -->">attestation</a>
@@ -127,13 +155,13 @@
         <li>
           <strong>2023 — <a href="https://ofb.gouv.fr/agir-avec-les-collectivites/plan-pollinisateurs" rel="noopener">Pollinisateurs</a></strong>
           — <a href="https://ofb.gouv.fr" rel="noopener">Office français de la biodiversité</a>.<br>
-          Enjeux de conservation des pollinisateurs, leviers territoriaux, bonnes pratiques de gestion différenciée.<br>
+          Enjeux de conservation des pollinisateurs et leviers territoriaux (gestion différenciée, pratiques favorables).<br>
           <em class="label">Compétences&nbsp;:</em> plan pollinisateurs · gestion différenciée · suivi participatif.
         </li>
         <li>
           <strong>2020 — <a href="https://www.coursera.org/learn/ecology-conservation" rel="noopener">Ecology: Ecosystems Dynamics and Conservation</a></strong>
           — <a href="https://www.amnh.org/learn-teach" rel="noopener">American Museum of Natural History</a>.<br>
-          Processus écologiques majeurs, dynamiques de populations/communautés et principes clés de conservation.<br>
+          Processus écologiques majeurs, dynamiques populations/communautés et principes clés de conservation.<br>
           <em class="label">Compétences&nbsp;:</em> écologie des populations · fragmentation · priorisation conservation.
           <span> · Certification :
             <a href="https://www.coursera.org/account/accomplishments/certificate/4BRWNJGJPHZ6" rel="noopener">Coursera (ID 4BRWNJGJPHZ6)</a>
@@ -170,7 +198,7 @@
         <li>
           <strong>2021 — <a href="https://www.coursera.org/learn/evolution-ecology" rel="noopener">The Big Stuff: Evolution and Ecology</a></strong>
           — <a href="https://www.colorado.edu/" rel="noopener">University of Colorado Boulder</a>.<br>
-          Panorama des grands mécanismes évolutifs et des interactions écologiques à différentes échelles.<br>
+          Panorama des mécanismes évolutifs et des interactions écologiques à différentes échelles.<br>
           <em class="label">Compétences&nbsp;:</em> macro-évolution · dynamiques d’écosystèmes · pensée systémique.
           <span> · Certification :
             <a href="<!-- https://fredericpallu.github.io/attestations/CU_Boulder_Evolution_Ecology_certificate.pdf -->">attestation</a>
@@ -217,13 +245,13 @@
           <strong>2022 — <a href="https://www.lpo.fr/agir-ensemble/entreprises-et-biodiversite/" rel="noopener">Entreprises & biodiversité — parcours ambassadeur</a></strong>
           — <a href="https://www.lpo.fr" rel="noopener">LPO France</a>.<br>
           Intégrer la biodiversité dans la stratégie d’entreprise : diagnostics, plans d’action, reporting et mobilisation interne.<br>
-          <em class="label">Compétences&nbsp;:</em> stratégie RSE · plans biodiversité · mobilisation des parties prenantes.
+          <em class="label">Compétences&nbsp;:</em> stratégie RSE · plans biodiversité · parties prenantes.
         </li>
         <li>
           <strong>2022 — <a href="https://www.lpo.fr/agir-ensemble/entreprises-et-biodiversite/" rel="noopener">Entreprises & biodiversité — passer à l’action ! (découverte)</a></strong>
           — <a href="https://www.lpo.fr" rel="noopener">LPO France</a>.<br>
-          Premiers pas pour des actions biodiversité concrètes dans les sites et filières d’entreprise.<br>
-          <em class="label">Compétences&nbsp;:</em> bonnes pratiques de gestion · quick wins · continuum site-filière.
+          Premiers pas pour des actions biodiversité concrètes sur site (gestion, aménagements, suivis).<br>
+          <em class="label">Compétences&nbsp;:</em> bonnes pratiques de gestion · quick wins · continuum site–filière.
         </li>
       </ul>
 
@@ -240,14 +268,16 @@
           </span>
         </li>
       </ul>
+    </section>
 
-      <!-- Transformation écologique, éthique & management du changement -->
-      <h3>Transformation écologique, éthique & management du changement</h3>
+    <!-- Transformation écologique, éthique & management du changement -->
+    <section id="transfo-changement" aria-labelledby="h2-transfo">
+      <h2 id="h2-transfo">Transformation écologique, éthique & management du changement</h2>
       <ul>
         <li>
           <strong>2016 — <a href="https://www.coursera.org/learn/changement" rel="noopener">Réussir le Changement</a></strong>
           — <a href="https://www.essec.edu/fr/" rel="noopener">ESSEC Business School</a>.<br>
-          Méthodes et leviers pour conduire des transformations organisationnelles : parties prenantes, trajectoires, outils et mesure d’impact.<br>
+          Leviers, méthodes et outils de conduite du changement dans les organisations et politiques publiques.<br>
           <em class="label">Compétences&nbsp;:</em> change management · innovation managériale · modèles économiques · leadership.
           <span> · Certification :
             <a href="https://www.coursera.org/account/accomplishments/certificate/ZE3N9G4BMNW4" rel="noopener">Coursera (ID ZE3N9G4BMNW4)</a>
@@ -324,6 +354,21 @@
           </span>
         </li>
       </ul>
+    </section>
+
+    <!-- COMPÉTENCES CLÉS -->
+    <section id="skills" aria-labelledby="h2-skills">
+      <h2 id="h2-skills">Compétences clés</h2>
+      <ul>
+        <li><strong>Biodiversité & écologie de la conservation</strong> : diagnostics d’écosystèmes, suivi écologique, indicateurs, priorisation, gestion adaptative (AMNH, PAPACO, LIEC).</li>
+        <li><strong>Écologie urbaine & trames écologiques (TVB)</strong> : continuités écologiques, planification territoriale, concertation, ingénierie écologique (IMBE/AMU, OFB/Tela Botanica).</li>
+        <li><strong>Systèmes Terre & solutions fondées sur la nature</strong> : limites planétaires, évaluation de risques, SFN pour adaptation & résilience (SDSN/SDG Academy).</li>
+        <li><strong>Transformation écologique & management du changement</strong> : conduite du changement, mobilisation des parties prenantes, modèles économiques (ESSEC, CNED).</li>
+        <li><strong>Éthique & gouvernance</strong> : cadres d’analyse éthique pour les décisions publiques/collectives, gouvernance responsable (Université de Genève, IEP Rennes).</li>
+        <li><strong>Hydrologie & écologie des hydrosystèmes</strong> : optimisation des éclusées, compromis énergie–écosystèmes, analyse multi-critères (LEHNA – Lyon 1).</li>
+        <li><strong>Data, visualisation & IA</strong> : Python (pandas, NumPy), analyse/visualisation, LLM, RAG, évaluation de modèles, prompt-engineering (IBM, DeepLearning.AI, IBM SkillsBuild).</li>
+      </ul>
+      <p class="meta">Ces compétences s’inscrivent dans les axes TES (IMT Atlantique) : atténuation climatique, préservation de la biodiversité, modes de production/consommation viables, adaptation & résilience.</p>
     </section>
 
     <!-- CONTACT -->
