@@ -47,7 +47,8 @@
     .toc{margin:18px 0}
     .toc .box{border:1px solid var(--rule);border-radius:10px;background:#f7f9fa;padding:14px 16px}
     .toc strong{display:block;margin-bottom:.35rem}
-    .toc ul{margin:0;padding-left:1.1rem}
+    .toc ul{margin:0;padding-left:1.1rem;list-style:disc}
+    .toc ul ul{margin-top:.35rem;padding-left:1.2rem;list-style:circle}
     .toc a{color:var(--c2);text-decoration:none}
     .toc a:hover{text-decoration:underline}
   </style>
@@ -62,13 +63,23 @@
     <p class="meta">Frédéric Pallu, Ingénieur général des Mines – IMT Atlantique</p>
   </header>
 
-  <!-- PAVÉ DE NAVIGATION -->
+  <!-- SOMMAIRE (menu 2 niveaux) -->
   <nav class="toc" aria-label="Sommaire">
     <div class="box">
       <strong>Sommaire</strong>
       <ul>
         <li><a href="#academique">Formations académiques</a></li>
-        <li><a href="#moocs-bio">MOOC & certifications – Biodiversité / Écologie</a></li>
+        <li>
+          <a href="#moocs-bio">MOOC & certifications – Biodiversité / Écologie</a>
+          <ul>
+            <li><a href="#bio-suivi">Suivi écologique & conservation</a></li>
+            <li><a href="#bio-ethologie">Écologie / comportement animal</a></li>
+            <li><a href="#bio-evolution">Évolution & écologie fondamentales</a></li>
+            <li><a href="#bio-systemes-terre">Sciences du système Terre & frontières planétaires</a></li>
+            <li><a href="#bio-entreprises">Biodiversité & entreprises / médiation</a></li>
+            <li><a href="#bio-robustesse">Robustesse & systémique inspirée du vivant</a></li>
+          </ul>
+        </li>
         <li><a href="#transfo-changement">Transformation écologique, éthique & management du changement</a></li>
         <li><a href="#moocs-data">Gestion de données, représentation de données et intelligence artificielle</a></li>
         <li><a href="#skills">Compétences clés</a></li>
@@ -132,7 +143,7 @@
       <h2 id="h2-bio">MOOC & certifications – Biodiversité / Écologie</h2>
 
       <!-- Suivi écologique & conservation -->
-      <h3>Suivi écologique & conservation</h3>
+      <h3 id="bio-suivi">Suivi écologique & conservation</h3>
       <ul>
         <li>
           <strong>2025 — <a href="https://papaco.org/mooc-mooc-suivi-ecologique/" rel="noopener">MOOC Suivi écologique</a></strong>
@@ -170,7 +181,7 @@
       </ul>
 
       <!-- Éthologie / comportement animal -->
-      <h3>Éthologie / comportement animal</h3>
+      <h3 id="bio-ethologie">Écologie / comportement animal</h3>
       <ul>
         <li>
           <strong>2021 — <a href="https://www.edx.org/learn/animal-behavior/wageningen-university-research-introduction-to-animal-behaviour" rel="noopener">Introduction to Animal Behaviour</a></strong>
@@ -184,7 +195,7 @@
       </ul>
 
       <!-- Évolution & écologie fondamentales -->
-      <h3>Évolution & écologie fondamentales</h3>
+      <h3 id="bio-evolution">Évolution & écologie fondamentales</h3>
       <ul>
         <li>
           <strong>2025 — <a href="https://www.coursera.org/learn/evolution-educators" rel="noopener">Evolution: A Course for Educators</a></strong>
@@ -207,7 +218,7 @@
       </ul>
 
       <!-- Systèmes Terre & frontières planétaires -->
-      <h3>Systèmes Terre & frontières planétaires</h3>
+      <h3 id="bio-systemes-terre">Sciences du système Terre & frontières planétaires</h3>
       <ul>
         <li>
           <strong>2021 — <a href="https://sdgacademy.org/course/planetary-boundaries/" rel="noopener">Planetary Boundaries</a></strong>
@@ -230,7 +241,7 @@
       </ul>
 
       <!-- Biodiversité & entreprises / médiation -->
-      <h3>Biodiversité & entreprises / médiation</h3>
+      <h3 id="bio-entreprises">Biodiversité & entreprises / médiation</h3>
       <ul>
         <li>
           <strong>2024 — <a href="https://www.cned.fr/mooc-climat-biodiversite" rel="noopener">B.A.-BA du climat et de la biodiversité — Super Badge</a></strong>
@@ -256,7 +267,7 @@
       </ul>
 
       <!-- Robustesse & systémique inspirée du vivant -->
-      <h3>Robustesse & systémique inspirée du vivant</h3>
+      <h3 id="bio-robustesse">Robustesse & systémique inspirée du vivant</h3>
       <ul>
         <li>
           <strong>2025 — <a href="https://www.sator.fr/cours/construire-la-robustesse" rel="noopener">Construire la robustesse – s’inspirer du vivant</a></strong>
@@ -368,7 +379,7 @@
         <li><strong>Hydrologie & écologie des hydrosystèmes</strong> : optimisation des éclusées, compromis énergie–écosystèmes, analyse multi-critères (LEHNA – Lyon 1).</li>
         <li><strong>Data, visualisation & IA</strong> : Python (pandas, NumPy), analyse/visualisation, LLM, RAG, évaluation de modèles, prompt-engineering (IBM, DeepLearning.AI, IBM SkillsBuild).</li>
       </ul>
-      <p class="meta">Ces compétences s’inscrivent dans les axes TES (IMT Atlantique) : atténuation climatique, préservation de la biodiversité, modes de production/consommation viables, adaptation & résilience.</p>
+      <p class="meta">Ces compétences s’inscrivent dans les axes <a href="https://www.imt-atlantique.fr/fr/l-ecole/transformation-ecologique-societale" rel="noopener"><strong>TES</strong> (Transformation écologique et sociétale)</a> d’IMT Atlantique : atténuation climatique, préservation de la biodiversité, modes de production/consommation viables, adaptation & résilience.</p>
     </section>
 
     <!-- CONTACT -->
