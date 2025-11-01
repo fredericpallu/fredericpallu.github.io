@@ -54,7 +54,7 @@
   }
   </script>
 
-  <!-- Données structurées WebPage (dateModified sera mise à jour par JS) -->
+  <!-- Données structurées WebPage -->
   <script type="application/ld+json" id="ld-webpage">
   {
     "@context":"https://schema.org",
@@ -74,8 +74,8 @@
 
   <style>
     :root {
-      --c1:#004f3d; /* titres h1 */
-      --c2:#007b8f; /* titres h2 + liens */
+      --c1:#004f3d;
+      --c2:#007b8f;
       --text:#222;
       --muted:#555;
       --rule:#ddd;
@@ -113,15 +113,6 @@
     }
     .btn:hover { background:#f0fbfd; }
     .copy-ok { color: #0a7a2d; font-size: .92em; margin-left:.25rem; display:none; }
-
-    /* Classe pour masquer proprement un lien à l'écran (mais lisible par Google) */
-    .visually-hidden-link {
-      position: absolute;
-      left: -9999px;
-      width: 1px;
-      height: 1px;
-      overflow: hidden;
-    }
   </style>
 </head>
 
@@ -134,101 +125,57 @@
   <nav class="toc" aria-label="Plan de page">
     <strong>Sommaire</strong>
     <ul>
-      <li><a href="#presentation" title="Aller à la présentation">Présentation</a></li>
-      <li><a href="#liens" title="Aller aux liens professionnels">Liens professionnels</a></li>
-      <li><a href="#cv" title="Aller au CV">CV</a></li>
-      <li><a href="#episodes" title="Aller aux épisodes Internet années 1990">Épisodes Internet (années 1990)</a></li>
-      <li><a href="#biodiversite-observations" title="Aller à la section Biodiversité et observations naturalistes">Biodiversité et observations naturalistes</a></li>
-      <li><a href="#contact" title="Aller au contact">Contact</a></li>
+      <li><a href="#presentation">Présentation</a></li>
+      <li><a href="#liens">Liens professionnels</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#episodes">Épisodes Internet (années 1990)</a></li>
+      <li><a href="#biodiversite-observations">Biodiversité et observations naturalistes</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
-  <main id="contenu-principal" role="main">
-    <section id="presentation" aria-labelledby="h2-presentation">
-      <h2 id="h2-presentation">Présentation</h2>
+  <main role="main">
+    <section id="presentation">
+      <h2>Présentation</h2>
       <p>
         Ingénieur général des Mines en poste à
-        <a href="https://www.imt-atlantique.fr/" rel="noopener noreferrer" title="Site d’IMT Atlantique">IMT Atlantique</a>,
+        <a href="https://www.imt-atlantique.fr/" rel="noopener noreferrer">IMT Atlantique</a>,
         spécialisé dans le développement économique, la transformation écologique et la biodiversité, engagé dans la
         transition environnementale des campus et des formations d’ingénieurs.
       </p>
     </section>
 
-    <section id="liens" aria-labelledby="h2-liens">
-      <h2 id="h2-liens">Liens professionnels</h2>
+    <section id="liens">
+      <h2>Liens professionnels</h2>
       <ul>
-        <li>
-          <a href="https://www.imt-atlantique.fr/fr/personne/frederic-pallu"
-             rel="me noopener noreferrer"
-             title="Profil officiel IMT Atlantique (FR)">Page officielle IMT Atlantique</a>
-          —
-          <a href="https://web.archive.org/web/20251028082517/https://www.imt-atlantique.fr/fr/personne/frederic-pallu"
-             rel="noopener noreferrer"
-             title="Capture WebArchive du 28 octobre 2025">photo WebArchive (28 oct. 2025)</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/fredericpallu"
-             rel="me noopener noreferrer"
-             title="Profil LinkedIn de Frédéric Pallu">Profil LinkedIn</a>
-        </li>
-        <li>
-          <a href="https://www.imt-atlantique.fr/en/person/frederic-pallu"
-             rel="alternate noopener noreferrer"
-             hreflang="en"
-             title="Profil IMT Atlantique (EN)">English profile IMT Atlantique</a>
-          —
-          <a href="https://web.archive.org/web/20251028090109/https://www.imt-atlantique.fr/en/person/frederic-pallu"
-             rel="noopener noreferrer"
-             title="Capture WebArchive du 28 octobre 2025 (EN)">photo WebArchive (28 oct. 2025)</a>
-        </li>
+        <li><a href="https://www.imt-atlantique.fr/fr/personne/frederic-pallu" rel="me noopener noreferrer">Page officielle IMT Atlantique</a></li>
+        <li><a href="https://www.linkedin.com/in/fredericpallu" rel="me noopener noreferrer">Profil LinkedIn</a></li>
+        <li><a href="https://www.imt-atlantique.fr/en/person/frederic-pallu" rel="alternate noopener noreferrer" hreflang="en">English profile IMT Atlantique</a></li>
       </ul>
     </section>
 
-    <section id="cv" aria-labelledby="h2-cv">
-      <h2 id="h2-cv">Curriculum Vitae</h2>
+    <section id="cv">
+      <h2>Curriculum Vitae</h2>
       <ul>
-        <li>
-          <a href="PALLU_FredericCV_octobre2025.pdf"
-             type="application/pdf"
-             download
-             title="Télécharger le CV de Frédéric Pallu (PDF)">
-             Télécharger mon CV (PDF)
-          </a>
-        </li>
+        <li><a href="PALLU_FredericCV_octobre2025.pdf" type="application/pdf" download>Télécharger mon CV (PDF)</a></li>
       </ul>
     </section>
 
-    <section id="episodes" aria-labelledby="h2-episodes">
-      <h2 id="h2-episodes">Quelques épisodes à mi-chemin entre mon CV et l’histoire de l’Internet (années 1990)</h2>
+    <section id="episodes">
+      <h2>Quelques épisodes à mi-chemin entre mon CV et l’histoire de l’Internet (années 1990)</h2>
       <ul>
-        <li>
-          <a href="https://fr.wikipedia.org/wiki/Voila"
-             rel="noopener noreferrer"
-             title="Article Wikipédia sur le moteur de recherche Voila (France Télécom)">L’article Wikipédia sur le moteur de recherche « Voila » (France Télécom). En 1998, Google sortait des limbes…</a>
-        </li>
-        <li>
-          <a href="PALLU Frederic 20251028 FT Lisa award.jpg"
-             rel="noopener"
-             title="Annuaire de France Télécom – classement et service type Street View (1998)">Quand l’annuaire de France Télécom était classé numéro un mondial. Avec un service qui préfigurait Google Street View, toujours en 1998.</a>
-        </li>
-        <li>
-          <a href="https://patents.google.com/patent/US7003519B1/en"
-             rel="noopener noreferrer"
-             title="Brevet US7003519B1 – Apprentissage supervisé pour moteurs de recherche (1999)">Un brevet de 1999, sur l’apprentissage supervisé des moteurs de recherche.</a>
-        </li>
-        <li>
-          <a href="https://fr.wikipedia.org/wiki/Louis_Pouzin"
-             rel="noopener noreferrer"
-             title="Wikipédia : Louis Pouzin">Je n’y étais pas, mais impossible de ne pas citer les travaux de Louis Pouzin… On est au début des années 1970.</a>
-        </li>
+        <li><a href="https://fr.wikipedia.org/wiki/Voila" rel="noopener noreferrer">L’article Wikipédia sur le moteur de recherche « Voila » (France Télécom).</a></li>
+        <li><a href="PALLU Frederic 20251028 FT Lisa award.jpg" rel="noopener">Quand l’annuaire de France Télécom était classé numéro un mondial.</a></li>
+        <li><a href="https://patents.google.com/patent/US7003519B1/en" rel="noopener noreferrer">Brevet de 1999 sur l’apprentissage supervisé des moteurs de recherche.</a></li>
+        <li><a href="https://fr.wikipedia.org/wiki/Louis_Pouzin" rel="noopener noreferrer">Louis Pouzin – les débuts d’Internet.</a></li>
       </ul>
     </section>
 
-    <section id="biodiversite-observations" aria-labelledby="h2-biodiversite-observations">
-      <h2 id="h2-biodiversite-observations">Biodiversité et observations naturalistes</h2>
+    <section id="biodiversite-observations">
+      <h2>Biodiversité et observations naturalistes</h2>
       <ul>
         <li>
-          🎧 Écoutez le <strong>bilan de 3 4 ans d'action - 2022-2025 - en faveur de la biodiversité à IMT Atlantique</strong> :
+          🎧 Écoutez le <strong>bilan 2022-2025</strong> :
           <br>
           <audio controls preload="none">
             <source src="https://fredericpallu.github.io/20251031BIODIVERSITEbilanIMTatlantiqueCompressed.mp3" type="audio/mpeg">
@@ -239,105 +186,73 @@
             Télécharger le fichier MP3
           </a>
         </li>
-
         <li>
           <a href="https://www.inaturalist.org/observations?place_id=any&user_id=fredericnantes&verifiable=any"
-             rel="noopener noreferrer"
-             title="Observations iNaturalist de Frédéric Pallu">Mes observations naturalistes (principalement entomo.) sur iNaturalist</a>
+             rel="noopener noreferrer">Mes observations naturalistes sur iNaturalist</a>
         </li>
       </ul>
     </section>
 
-    <section id="contact" aria-labelledby="h2-contact">
-      <h2 id="h2-contact">Contact</h2>
-      <p>Vous pouvez me joindre directement par e-mail&nbsp;:</p>
-
-      <div class="contact-actions" role="group" aria-label="Actions de contact">
-        <!-- Lien mailto avec tag d'identification -->
-        <a class="btn" href="mailto:frederic.pallu@mines.org?subject=%5BGitHubProfile%5D%20Contact%20depuis%20fredericpallu.github.io&body=Bonjour%20Fr%C3%A9d%C3%A9ric%2C%0A%0ACe%20message%20a%20%C3%A9t%C3%A9%20%C3%A9mis%20depuis%20votre%20profil%20GitHub%20Pages%20%28https%3A%2F%2Ffredericpallu.github.io%2F%29.%0A%0AObjet%20:%20%0A%0AMessage%20:%20"
-           title="Envoyer un e-mail avec tag d’identification [GitHubProfile]">✉️ Envoyer un message</a>
-
-        <!-- Bouton copier l'adresse -->
-        <button class="btn" id="copyMailBtn" type="button" aria-label="Copier l’adresse e-mail">Copier l’e-mail</button>
-        <span id="copyOk" class="copy-ok" aria-live="polite">Copié ✓</span>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Vous pouvez me joindre directement par e-mail :</p>
+      <div class="contact-actions">
+        <a class="btn" href="mailto:frederic.pallu@mines.org?subject=%5BGitHubProfile%5D%20Contact%20depuis%20fredericpallu.github.io">✉️ Envoyer un message</a>
+        <button class="btn" id="copyMailBtn" type="button">Copier l’e-mail</button>
+        <span id="copyOk" class="copy-ok">Copié ✓</span>
       </div>
-
-      <p class="meta">L’objet des messages envoyés via ce lien est préfixé par <strong>[GitHubProfile]</strong> pour faciliter le tri côté messagerie.</p>
+      <p class="meta">Dernière mise à jour : <span id="maj"></span>.</p>
     </section>
-
-    <!-- Date visible, remplie automatiquement -->
-    <p class="meta">Dernière mise à jour&nbsp;: <span id="maj"></span>.</p>
   </main>
 
   <!-- =========================
-       LIEN VERS LA PAGE D'ACTIONS
+       LIENS VERS LES PAGES ANNEXES
        ========================= -->
 
-  <!-- (A) Lien visible pour les tests (cliquable par les utilisateurs) -->
   <p style="text-align:center; margin-top:2rem;">
     🔗 <a href="actions_biodiversite.html" title="Voir la page Actions Biodiversité (IMT Atlantique)">
     ➤ Accéder à la page « Actions Biodiversité »
     </a>
   </p>
 
-  <!-- (B) Variante masquée (à activer quand tu veux cacher le lien aux utilisateurs mais le laisser suivable par Google)
-       Pour activer le masquage : commente le bloc (A) ci-dessus et décommente le bloc (B) ci-dessous. -->
-  <!--
-  <a href="actions_biodiversite.html"
-     title="Actions biodiversité – IMT Atlantique"
-     class="visually-hidden-link">
-     Actions biodiversité – IMT Atlantique
-  </a>
-  -->
+  <p style="text-align:center; margin-top:1rem;">
+    🔗 <a href="formation.html" title="Voir la page Formations et MOOCs">
+    ➤ Accéder à la page « Formations et MOOCs »
+    </a>
+  </p>
 
-  <footer role="contentinfo">
-    <p>© 2025 – Frédéric Pallu. Page personnelle hébergée sur GitHub Pages (référencement & archivage).</p>
+  <footer>
+    <p>© 2025 – Frédéric Pallu. Page personnelle hébergée sur GitHub Pages.</p>
   </footer>
 
   <script>
-    // Copie l'adresse e-mail dans le presse-papier
+    // Copie e-mail
     (function () {
       var btn = document.getElementById('copyMailBtn');
       var ok = document.getElementById('copyOk');
       if (btn) {
         btn.addEventListener('click', function () {
           var mail = 'frederic.pallu@mines.org';
-          if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(mail).then(function () {
-              ok.style.display = 'inline';
-              setTimeout(function(){ ok.style.display = 'none'; }, 1800);
-            });
-          } else {
-            // fallback discret
-            var ta = document.createElement('textarea');
-            ta.value = mail;
-            document.body.appendChild(ta);
-            ta.select();
-            try { document.execCommand('copy'); ok.style.display = 'inline'; setTimeout(function(){ ok.style.display = 'none'; }, 1800); }
-            catch(e) {}
-            document.body.removeChild(ta);
-          }
+          navigator.clipboard.writeText(mail).then(function () {
+            ok.style.display = 'inline';
+            setTimeout(function(){ ok.style.display = 'none'; }, 1800);
+          });
         });
       }
     })();
 
-    // === Date "Dernière mise à jour" + JSON-LD dateModified ===
+    // Date de mise à jour automatique
     (function () {
       var d = new Date(document.lastModified);
-      // Affichage FR lisible (ex: 01 novembre 2025)
       var fr = d.toLocaleDateString('fr-FR', { day:'2-digit', month:'long', year:'numeric' });
       var span = document.getElementById('maj');
       if (span) span.textContent = fr;
-
-      // Mise à jour de la donnée structurée WebPage -> dateModified (AAAA-MM-JJ)
       var iso = new Date(d.getTime() - d.getTimezoneOffset()*60000).toISOString().slice(0,10);
       var ld = document.getElementById('ld-webpage');
       if (ld) {
-        try {
-          var data = JSON.parse(ld.textContent);
-          data.dateModified = iso;
-          ld.textContent = JSON.stringify(data, null, 2);
-        } catch (e) { /* si parsing impossible, on n'écrase rien */ }
+        var data = JSON.parse(ld.textContent);
+        data.dateModified = iso;
+        ld.textContent = JSON.stringify(data, null, 2);
       }
     })();
   </script>
