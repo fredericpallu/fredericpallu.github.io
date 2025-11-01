@@ -113,6 +113,15 @@
     }
     .btn:hover { background:#f0fbfd; }
     .copy-ok { color: #0a7a2d; font-size: .92em; margin-left:.25rem; display:none; }
+
+    /* Classe pour masquer proprement un lien à l'écran (mais lisible par Google) */
+    .visually-hidden-link {
+      position: absolute;
+      left: -9999px;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
   </style>
 </head>
 
@@ -259,6 +268,27 @@
     <!-- Date visible, remplie automatiquement -->
     <p class="meta">Dernière mise à jour&nbsp;: <span id="maj"></span>.</p>
   </main>
+
+  <!-- =========================
+       LIEN VERS LA PAGE D'ACTIONS
+       ========================= -->
+
+  <!-- (A) Lien visible pour les tests (cliquable par les utilisateurs) -->
+  <p style="text-align:center; margin-top:2rem;">
+    🔗 <a href="actions_biodiversite.html" title="Voir la page Actions Biodiversité (IMT Atlantique)">
+    ➤ Accéder à la page « Actions Biodiversité »
+    </a>
+  </p>
+
+  <!-- (B) Variante masquée (à activer quand tu veux cacher le lien aux utilisateurs mais le laisser suivable par Google)
+       Pour activer le masquage : commente le bloc (A) ci-dessus et décommente le bloc (B) ci-dessous. -->
+  <!--
+  <a href="actions_biodiversite.html"
+     title="Actions biodiversité – IMT Atlantique"
+     class="visually-hidden-link">
+     Actions biodiversité – IMT Atlantique
+  </a>
+  -->
 
   <footer role="contentinfo">
     <p>© 2025 – Frédéric Pallu. Page personnelle hébergée sur GitHub Pages (référencement & archivage).</p>
