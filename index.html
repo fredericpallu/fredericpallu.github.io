@@ -25,26 +25,54 @@
   <meta name="twitter:description" content="Profil, CV, liens professionnels, actions biodiversité et contact.">
   <meta name="twitter:image" content="https://fredericpallu.github.io/PALLU%20Frederic%2020251028%20FT%20Lisa%20award.jpg">
 
-  <!-- Données structurées Person -->
+  <!-- Données structurées Person (version enrichie) -->
   <script type="application/ld+json" id="ld-person">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Frédéric Pallu",
-    "jobTitle": "Ingénieur général des Mines",
+    "alternateName": "Frédéric PALLU",
+    "jobTitle": "Ingénieur général des Mines, chargé de mission Développement économique et stratégique – IMT Atlantique",
     "email": "mailto:frederic.pallu@mines.org",
+    "url": "https://fredericpallu.github.io/",
     "affiliation": {
       "@type": "CollegeOrUniversity",
       "name": "IMT Atlantique",
-      "url": "https://www.imt-atlantique.fr/"
+      "url": "https://www.imt-atlantique.fr/fr"
     },
-    "url": "https://fredericpallu.github.io/",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "IMT Atlantique",
+      "url": "https://www.imt-atlantique.fr/fr"
+    },
     "sameAs": [
       "https://www.imt-atlantique.fr/fr/personne/frederic-pallu",
       "https://www.imt-atlantique.fr/en/person/frederic-pallu",
-      "https://www.linkedin.com/in/fredericpallu",
+      "https://www.linkedin.com/in/fredericpallu/",
+      "https://fredericpallu.github.io/",
       "https://www.inaturalist.org/observations?place_id=any&user_id=fredericnantes&verifiable=any"
     ],
+    "knowsAbout": [
+      "biodiversité",
+      "transformation écologique et sociétale",
+      "développement économique",
+      "innovation entrepreneuriale",
+      "écologie urbaine",
+      "sciences du système Terre",
+      "ODD 13",
+      "ODD 14",
+      "ODD 15"
+    ],
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Chargé de mission Développement économique et stratégique de l'École",
+      "description": "Conception et mise en œuvre de la politique TES, ancrage scientifique (biodiversité, limites planétaires), partenariats économiques et territoriaux."
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nantes",
+      "addressCountry": "FR"
+    },
     "contactPoint": [{
       "@type": "ContactPoint",
       "contactType": "Personal",
@@ -54,7 +82,28 @@
   }
   </script>
 
-  <!-- Données structurées WebPage -->
+  <!-- Données structurées WebSite -->
+  <script type="application/ld+json" id="ld-website">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://fredericpallu.github.io/",
+    "name": "Site personnel de Frédéric Pallu",
+    "inLanguage": "fr-FR",
+    "publisher": {
+      "@type": "Person",
+      "name": "Frédéric Pallu",
+      "url": "https://fredericpallu.github.io/"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://fredericpallu.github.io/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Données structurées WebPage (dateModified mise à jour en JS) -->
   <script type="application/ld+json" id="ld-webpage">
   {
     "@context":"https://schema.org",
@@ -73,44 +122,21 @@
   </script>
 
   <style>
-    :root {
-      --c1:#004f3d;
-      --c2:#007b8f;
-      --text:#222;
-      --muted:#555;
-      --rule:#ddd;
-      --maxw: 860px;
-    }
+    :root { --c1:#004f3d; --c2:#007b8f; --text:#222; --muted:#555; --rule:#ddd; --maxw: 860px; }
     html { scroll-behavior: smooth; }
-    body {
-      font-family: Arial, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Helvetica, sans-serif;
-      max-width: var(--maxw);
-      margin: 40px auto;
-      padding: 0 20px 40px;
-      color: var(--text);
-      line-height: 1.6;
-    }
+    body { font-family: Arial, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Helvetica, sans-serif; max-width: var(--maxw); margin: 40px auto; padding: 0 20px 40px; color: var(--text); line-height: 1.6; }
     header[role="banner"] { margin-bottom: 1.5rem; }
     h1 { color: var(--c1); margin-bottom: .25rem; }
     h2 { color: var(--c2); border-bottom: 1px solid #ccc; padding-bottom: 6px; margin-top: 2rem; }
     a { color: var(--c2); text-decoration: none; }
     a:hover, a:focus { text-decoration: underline; }
-    nav.toc {
-      background: #f7f9fa;
-      border: 1px solid var(--rule);
-      border-radius: 8px;
-      padding: 12px 14px;
-      margin: 1rem 0 1.5rem;
-    }
+    nav.toc { background: #f7f9fa; border: 1px solid var(--rule); border-radius: 8px; padding: 12px 14px; margin: 1rem 0 1.5rem; }
     nav.toc ul { margin: .25rem 0 .25rem 1rem; }
     ul { padding-left: 1.25rem; }
     footer { margin-top: 3rem; font-size: 0.92em; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 12px; }
     .meta { color: var(--muted); font-size: .92em; }
     .contact-actions { display:flex; gap:.5rem; align-items:center; flex-wrap: wrap; }
-    .btn {
-      display:inline-block; padding:.5rem .75rem; border:1px solid var(--c2);
-      border-radius:8px; text-decoration:none; cursor:pointer;
-    }
+    .btn { display:inline-block; padding:.5rem .75rem; border:1px solid var(--c2); border-radius:8px; text-decoration:none; cursor:pointer; }
     .btn:hover { background:#f0fbfd; }
     .copy-ok { color: #0a7a2d; font-size: .92em; margin-left:.25rem; display:none; }
   </style>
@@ -208,7 +234,6 @@
   <!-- =========================
        LIENS VERS LES PAGES ANNEXES
        ========================= -->
-
   <p style="text-align:center; margin-top:2rem;">
     🔗 <a href="actions_biodiversite.html" title="Voir la page Actions Biodiversité (IMT Atlantique)">
     ➤ Accéder à la page « Actions Biodiversité »
@@ -241,18 +266,21 @@
       }
     })();
 
-    // Date de mise à jour automatique
+    // Date de mise à jour automatique + MAJ du JSON-LD WebPage
     (function () {
       var d = new Date(document.lastModified);
       var fr = d.toLocaleDateString('fr-FR', { day:'2-digit', month:'long', year:'numeric' });
       var span = document.getElementById('maj');
       if (span) span.textContent = fr;
+
       var iso = new Date(d.getTime() - d.getTimezoneOffset()*60000).toISOString().slice(0,10);
       var ld = document.getElementById('ld-webpage');
       if (ld) {
-        var data = JSON.parse(ld.textContent);
-        data.dateModified = iso;
-        ld.textContent = JSON.stringify(data, null, 2);
+        try {
+          var data = JSON.parse(ld.textContent);
+          data.dateModified = iso;
+          ld.textContent = JSON.stringify(data, null, 2);
+        } catch(e) {}
       }
     })();
   </script>
