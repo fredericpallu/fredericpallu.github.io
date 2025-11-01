@@ -24,6 +24,54 @@
   <meta name="twitter:description" content="Parcours académique et MOOCs certifiants en transformation écologique, biodiversité, écologie, systèmes Terre, data et IA.">
   <meta name="twitter:image" content="https://fredericpallu.github.io/og/og-biodiversite.jpg">
 
+  <!-- JSON-LD : Person + WebPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://fredericpallu.github.io/#person",
+        "name": "Frédéric Pallu",
+        "jobTitle": "Ingénieur général des Mines",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "IMT Atlantique",
+          "url": "https://www.imt-atlantique.fr/fr"
+        },
+        "url": "https://fredericpallu.github.io/",
+        "email": "mailto:frederic.pallu@mines.org",
+        "sameAs": [
+          "https://fredericpallu.github.io/",
+          "https://www.imt-atlantique.fr/fr/l-ecole",
+          "https://www.linkedin.com/in/fredericpallu"
+        ],
+        "knowsAbout": [
+          "biodiversité",
+          "écologie de la conservation",
+          "écologie urbaine",
+          "trames vertes et bleues",
+          "solutions fondées sur la nature",
+          "transformation écologique",
+          "data science",
+          "visualisation de données",
+          "intelligence artificielle"
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://fredericpallu.github.io/formations_biodiversite.html#webpage",
+        "url": "https://fredericpallu.github.io/formations_biodiversite.html",
+        "name": "Formations & MOOCs – Transformation écologique & Biodiversité | Frédéric Pallu",
+        "description": "Parcours académique et MOOCs certifiants en transformation écologique, biodiversité, écologie, systèmes Terre, data et IA.",
+        "inLanguage": "fr",
+        "about": { "@id": "https://fredericpallu.github.io/#person" },
+        "isPartOf": { "@type": "WebSite", "url": "https://fredericpallu.github.io/" }
+      }
+    ]
+  }
+  </script>
+
   <style>
     :root{--c1:#004f3d;--c2:#007b8f;--text:#222;--muted:#555;--rule:#e4e7ea;--maxw:980px}
     html{scroll-behavior:smooth}
@@ -42,9 +90,8 @@
     .contact-actions{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;margin-top:.5rem}
     .btn{display:inline-block;padding:.5rem .75rem;border:1px solid var(--c2);border-radius:8px;text-decoration:none;cursor:pointer}
     .btn:hover{background:#f0fbfd}
-    .copy-ok{color:#0a7a2d;font-size:.92rem;margin-left:.25rem;display:none}
+    .copy-ok{color:#0a7a7a;font-size:.92rem;margin-left:.25rem;display:none}
     em.label{font-style:normal;color:var(--muted)}
-    /* Sommaire multi-niveaux */
     .toc{margin:18px 0}
     .toc .box{border:1px solid var(--rule);border-radius:10px;background:#f7f9fa;padding:14px 16px}
     .toc strong{display:block;margin-bottom:.35rem}
@@ -53,7 +100,6 @@
     .toc ul ul ul{margin-top:.15rem;padding-left:1.2rem;list-style:square}
     .toc a{color:var(--c2);text-decoration:none}
     .toc a:hover{text-decoration:underline}
-    /* Visually hidden (a11y + SEO non trompeur) */
     .visually-hidden{
       position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap
     }
@@ -69,7 +115,6 @@
     <p class="meta">Frédéric Pallu, Ingénieur général des Mines – <a href="https://www.imt-atlantique.fr/fr" rel="noopener">IMT Atlantique</a></p>
   </header>
 
-  <!-- SOMMAIRE à 3 niveaux -->
   <nav class="toc" aria-label="Sommaire">
     <div class="box">
       <strong>Sommaire</strong>
@@ -99,7 +144,6 @@
   </nav>
 
   <main id="contenu-principal" role="main">
-    <!-- NIVEAU 1 : Formations académiques -->
     <section id="academique" aria-labelledby="h2-acad">
       <h2 id="h2-acad">Formations académiques</h2>
       <ul>
@@ -145,15 +189,12 @@
       </ul>
     </section>
 
-    <!-- NIVEAU 1 : MOOC & certifications -->
     <section id="mooc" aria-labelledby="h2-mooc">
       <h2 id="h2-mooc">MOOC & certifications</h2>
 
-      <!-- NIVEAU 2 : Biodiversité / Écologie -->
       <section id="mooc-bio" aria-labelledby="h3-bio">
         <h3 id="h3-bio">Biodiversité / Écologie</h3>
 
-        <!-- NIVEAU 3 -->
         <h4 id="bio-suivi">Suivi écologique & conservation</h4>
         <ul>
           <li>
@@ -296,7 +337,6 @@
         </ul>
       </section>
 
-      <!-- NIVEAU 2 : Transformation écologique -->
       <section id="mooc-transfo" aria-labelledby="h3-transfo">
         <h3 id="h3-transfo">Transformation écologique</h3>
         <ul>
@@ -339,7 +379,6 @@
         </ul>
       </section>
 
-      <!-- NIVEAU 2 : Gestion de données, représentation de données et IA -->
       <section id="mooc-data" aria-labelledby="h3-data">
         <h3 id="h3-data">Gestion de données, représentation de données et IA</h3>
         <ul>
@@ -401,7 +440,6 @@
       </section>
     </section>
 
-    <!-- COMPÉTENCES CLÉS -->
     <section id="skills" aria-labelledby="h2-skills">
       <h2 id="h2-skills">Compétences clés</h2>
       <ul>
@@ -424,7 +462,6 @@
       </p>
     </section>
 
-    <!-- CONTACT -->
     <section id="contact" aria-labelledby="h2-contact">
       <h2 id="h2-contact">Contact</h2>
       <p>Vous pouvez me joindre directement par e-mail&nbsp;:</p>
@@ -444,14 +481,12 @@
   </footer>
 
   <script>
-    // Date visible (FR)
     (function(){
       var d = new Date(document.lastModified);
       var fr = d.toLocaleDateString('fr-FR', {day:'2-digit', month:'long', year:'numeric'});
       var span = document.getElementById('maj'); if(span) span.textContent = fr;
     })();
 
-    // Copie e-mail
     (function () {
       var btn = document.getElementById('copyMailBtn');
       var ok = document.getElementById('copyOk');
