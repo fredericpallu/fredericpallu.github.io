@@ -53,6 +53,10 @@
     .toc ul ul ul{margin-top:.15rem;padding-left:1.2rem;list-style:square}
     .toc a{color:var(--c2);text-decoration:none}
     .toc a:hover{text-decoration:underline}
+    /* Visually hidden (a11y + SEO non trompeur) */
+    .visually-hidden{
+      position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap
+    }
   </style>
 </head>
 <body>
@@ -62,7 +66,7 @@
 
   <header>
     <h1>Formations & MOOCs – Transformation écologique & Biodiversité</h1>
-    <p class="meta">Frédéric Pallu, Ingénieur général des Mines – IMT Atlantique</p>
+    <p class="meta">Frédéric Pallu, Ingénieur général des Mines – <a href="https://www.imt-atlantique.fr/fr" rel="noopener">IMT Atlantique</a></p>
   </header>
 
   <!-- SOMMAIRE à 3 niveaux -->
@@ -105,7 +109,7 @@
           <a href="https://www.imbe.fr/fr/" rel="noopener">Institut Méditerranéen de Biodiversité et d’Écologie marine et continentale (IMBE)</a>
           <span class="badge">mention Bien</span><br>
           Intégration de la biodiversité dans l’aménagement urbain et territorial, avec appui scientifique de l’IMBE.<br>
-          <em class="label">Compétences&nbsp;:</em> écologie urbaine · trames écologiques (TVB) · ingénierie écologique · politiques publiques · concertation territoriale.<br>
+          <em class="label">Compétences&nbsp;:</em> écologie urbaine · trames écologiques (TVB) · ingénierie écologique · politiques publiques · concertation territoriale · <abbr title="Indice Biologique Global Normalisé">IBGN</abbr> (M1 – IMBE).<br>
           <em>Mémoire&nbsp;:</em> « Abeilles domestiques et pollinisateurs sauvages : concilier les enjeux sur le territoire de Nantes ». (Validation <a href="https://www.ecologie.gouv.fr/direction-generale-lamenagement-du-logement-et-de-la-nature-dgaln" rel="noopener">DGALN</a>)
         </li>
         <li>
@@ -114,7 +118,7 @@
           <a href="https://liec.univ-lorraine.fr/" rel="noopener">Laboratoire Interdisciplinaire des Environnements Continentaux (LIEC)</a>
           <span class="badge">mention Très Bien — major</span><br>
           Fondamentaux de l’écologie appliquée aux territoires et formation à la gestion des milieux naturels.<br>
-          <em class="label">Compétences&nbsp;:</em> écologie des communautés · bioindication · suivi naturaliste · SIG de base · gestion adaptative.<br>
+          <em class="label">Compétences&nbsp;:</em> écologie des communautés · bioindication · suivi naturaliste · SIG de base · gestion adaptative · <abbr title="Indice Biologique Global Normalisé">IBGN</abbr> (L3 – LIEC).<br>
           <em>mémoire&nbsp;:</em> « quel corpus de formation à la biodiversité pour les grandes écoles qui ne sont pas sur le champ du vivant ? ».
         </li>
         <li>
@@ -134,7 +138,7 @@
           — <a href="https://www.univ-lyon1.fr/" rel="noopener">Université Claude Bernard Lyon 1</a> /
           <a href="https://umr5023.univ-lyon1.fr/" rel="noopener">Laboratoire d’Écologie des Hydrosystèmes Naturels et Anthropisés (LEHNA – UMR 5023)</a>.<br>
           Hydrologie opérationnelle et gestion écologique des hydrosystèmes fluviaux (éclusées, débits réservés, compromis énergie-écosystèmes).<br>
-          <em class="label">Compétences&nbsp;:</em> hydrologie · écologie des cours d’eau · modélisation simple · analyse multi-critères.<br>
+          <em class="label">Compétences&nbsp;:</em> hydrologie · écologie des cours d’eau · modélisation simple · analyse multi-critères · <a href="https://www.alise-environnement.fr/eau/realisation-ibgn/" rel="noopener"><abbr title="Indice Biologique Global Normalisé">IBGN</abbr></a> (L2 – LEHNA).<br>
           <em>Mémoire&nbsp;:</em> « Optimisation des éclusées sur les barrages de la basse vallée du Rhône entre Lyon et la Méditerranée ». EDF / GRPH.
         </li>
       </ul>
@@ -378,10 +382,13 @@
         <li><strong>Systèmes Terre & solutions fondées sur la nature</strong> : limites planétaires, évaluation de risques, SFN pour adaptation & résilience (SDSN/SDG Academy).</li>
         <li><strong>Transformation écologique & management du changement</strong> : conduite du changement, mobilisation des parties prenantes, modèles économiques (ESSEC, CNED).</li>
         <li><strong>Éthique & gouvernance</strong> : cadres d’analyse éthique pour les décisions publiques/collectives, gouvernance responsable (Université de Genève, IEP Rennes).</li>
-        <li><strong>Hydrologie & écologie des hydrosystèmes</strong> : optimisation des éclusées, compromis énergie–écosystèmes, analyse multi-critères (LEHNA – Lyon 1).</li>
+        <li><strong>Hydrologie & écologie des hydrosystèmes</strong> : IBGN — <em>Indice Biologique Global Normalisé</em> (L2 LEHNA, L3 LIEC, M1 IMBE), optimisation des éclusées, compromis énergie–écosystèmes, analyse multi-critères (LEHNA – Lyon 1).</li>
         <li><strong>Data, visualisation & IA</strong> : Python (pandas, NumPy), analyse/visualisation, LLM, RAG, évaluation de modèles, prompt-engineering (IBM, DeepLearning.AI, IBM SkillsBuild).</li>
       </ul>
-      <p class="meta">Ces compétences s’inscrivent dans les axes <a href="https://www.imt-atlantique.fr/fr/l-ecole/transformation-ecologique-societale" rel="noopener"><strong>TES</strong> (Transformation écologique et sociétale)</a> d’IMT Atlantique : atténuation climatique, préservation de la biodiversité, modes de production/consommation viables, adaptation & résilience.</p>
+      <p class="meta">
+        Ces compétences s’inscrivent dans les axes <a href="https://www.imt-atlantique.fr/fr/l-ecole/transformation-ecologique-societale" rel="noopener"><strong>TES</strong> (Transformation écologique et sociétale)</a> d’<a href="https://www.imt-atlantique.fr/fr" rel="noopener">IMT Atlantique</a>,
+        en cohérence avec les Objectifs de Développement Durable <strong>ODD&nbsp;15</strong> « Vie terrestre » (<a href="https://www.imt-atlantique.fr/fr/l-ecole/ddrs/objectif/odd15" rel="noopener">bilan ODD&nbsp;15</a>), ainsi que l’<span class="visually-hidden">ODD&nbsp;13 (Action climatique) · ODD&nbsp;14 (Vie aquatique) · SDG&nbsp;13 · SDG&nbsp;14 · SDG&nbsp;15</span>.
+      </p>
     </section>
 
     <!-- CONTACT -->
