@@ -6,4 +6,5 @@ User-agent: *
 Allow: /
 
 # Emplacement du sitemap
-Sitemap: https://fredericpallu.github.io/sitemap.xml
+Sitemap: https://fredericpallu.github.io/sitemap.txt
+
