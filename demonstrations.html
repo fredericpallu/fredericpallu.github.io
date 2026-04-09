@@ -206,16 +206,18 @@
     .demo-title{
       font-weight:600;
     }
+    .demo-title a{
+      color:var(--text);
+      text-decoration:none;
+    }
+    .demo-title a:hover{
+      color:var(--c2);
+      text-decoration:underline;
+    }
     .keywords{
       color:var(--muted);
       font-size:.95rem;
       margin-top:.2rem;
-    }
-    .pending-link{
-      color:var(--muted);
-      font-style:italic;
-      font-size:.92rem;
-      margin-left:.35rem;
     }
   </style>
 </head>
@@ -254,8 +256,11 @@
 
       <ul class="demo-list">
         <li>
-          <span class="demo-title">Avril 2026 - démonstration d'un pipe de pilotage de Qgis / Python / R depuis le Chatbot Claude d'Anthropic. Pilotage en langage naturel, opérations géomatiques puis analyse d'un rapport et rédaction d'un rapport complémentaire.</span>
-          <span class="pending-link">(lien à venir)</span><br>
+          <span class="demo-title">
+            <a href="https://www.youtube.com/watch?v=b5lPl50PKc8" target="_blank" rel="noopener">
+              Avril 2026 - démonstration d'un pipe de pilotage de Qgis / Python / R depuis le Chatbot Claude d'Anthropic. Pilotage en langage naturel, opérations géomatiques puis analyse d'un rapport et rédaction d'un rapport complémentaire.
+            </a>
+          </span><br>
           <span class="keywords"><strong>Mots clefs :</strong> Qgis, SIG, Python, R, Anthropic Claude, LLM, IAG, TALN.</span>
         </li>
       </ul>
