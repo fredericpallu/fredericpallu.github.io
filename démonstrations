@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WH4HPJ9D');</script>
+<!-- End Google Tag Manager -->
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YVXFDJ3K1J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YVXFDJ3K1J');
+</script>
+  <meta charset="utf-8">
+  <title>Démonstrations – Frédéric Pallu</title>
+  <meta name="description" content="Page Démonstrations de Frédéric Pallu.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://fredericpallu.github.io/demonstrations.html">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Frédéric Pallu">
+  <meta name="theme-color" content="#004f3d">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Frédéric Pallu – Transformation écologique & Biodiversité (IMT Atlantique)">
+  <meta property="og:title" content="Démonstrations – Frédéric Pallu">
+  <meta property="og:description" content="Page Démonstrations de Frédéric Pallu.">
+  <meta property="og:url" content="https://fredericpallu.github.io/demonstrations.html">
+  <meta property="og:image" content="https://fredericpallu.github.io/og/og-biodiversite.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Démonstrations – Frédéric Pallu">
+  <meta name="twitter:description" content="Page Démonstrations de Frédéric Pallu.">
+  <meta name="twitter:image" content="https://fredericpallu.github.io/og/og-biodiversite.jpg">
+
+  <!-- JSON-LD : Person + WebPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://fredericpallu.github.io/#person",
+        "name": "Frédéric Pallu",
+        "jobTitle": "Ingénieur général des Mines",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "IMT Atlantique",
+          "url": "https://www.imt-atlantique.fr/fr"
+        },
+        "url": "https://fredericpallu.github.io/",
+        "email": "mailto:frederic.pallu@mines.org",
+        "sameAs": [
+          "https://fredericpallu.github.io/",
+          "https://www.imt-atlantique.fr/fr/l-ecole",
+          "https://www.linkedin.com/in/fredericpallu"
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://fredericpallu.github.io/demonstrations.html#webpage",
+        "url": "https://fredericpallu.github.io/demonstrations.html",
+        "name": "Démonstrations – Frédéric Pallu",
+        "description": "Page Démonstrations de Frédéric Pallu.",
+        "inLanguage": "fr",
+        "about": { "@id": "https://fredericpallu.github.io/#person" },
+        "isPartOf": { "@type": "WebSite", "url": "https://fredericpallu.github.io/" }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root{--c1:#004f3d;--c2:#007b8f;--text:#222;--muted:#555;--rule:#e4e7ea;--maxw:980px}
+    html{scroll-behavior:smooth}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--text);line-height:1.6;margin:0}
+    header,main,footer{max-width:var(--maxw);margin:auto;padding:0 20px}
+    .breadcrumbs{background:#f7f9fa;border-bottom:1px solid var(--rule);padding:8px 20px;font-size:.92rem}
+    .breadcrumbs a{color:var(--c2);text-decoration:none}
+    h1{color:var(--c1);margin:1.25rem 0 .25rem}
+    h2{color:var(--c2);border-bottom:1px solid var(--rule);padding-bottom:6px;margin-top:2rem}
+    h3{margin:1.25rem 0 .35rem}
+    h4{margin:1rem 0 .25rem}
+    .meta{color:var(--muted);font-size:.92rem}
+    ul{padding-left:1.1rem}
+    .badge{display:inline-block;border:1px solid var(--rule);border-radius:999px;padding:.15rem .6rem;font-size:.86rem;background:#fff;margin-left:.35rem}
+    footer{border-top:1px solid var(--rule);padding:16px 20px;margin-top:28px}
+    .contact-actions{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;margin-top:.5rem}
+    .btn{display:inline-block;padding:.5rem .75rem;border:1px solid var(--c2);border-radius:8px;text-decoration:none;cursor:pointer}
+    .btn:hover{background:#f0fbfd}
+    .copy-ok{color:#0a7a2d;font-size:.92rem;margin-left:.25rem;display:none}
+    .toc{margin:18px 0}
+    .toc .box{border:1px solid var(--rule);border-radius:10px;background:#f7f9fa;padding:14px 16px}
+    .toc strong{display:block;margin-bottom:.35rem}
+    .toc ul{margin:0;padding-left:1.1rem;list-style:disc}
+    .toc a{color:var(--c2);text-decoration:none}
+    .toc a:hover{text-decoration:underline}
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WH4HPJ9D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <div class="breadcrumbs" aria-label="Fil d’Ariane">
+    <a href="/">Accueil</a> › <span aria-current="page">Démonstrations</span>
+  </div>
+
+  <header>
+    <h1>Démonstrations</h1>
+    <p class="meta">Frédéric Pallu, Ingénieur général des Mines – <a href="https://www.imt-atlantique.fr/fr" rel="noopener">IMT Atlantique</a></p>
+  </header>
+
+  <nav class="toc" aria-label="Sommaire">
+    <div class="box">
+      <strong>Navigation</strong>
+      <ul>
+        <li><a href="/">Accueil</a></li>
+        <li><a href="actions_biodiversite.html">Actions Biodiversité</a></li>
+        <li><a href="formation.html">Formations</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="contenu-principal" role="main">
+    <section id="contact" aria-labelledby="h2-contact">
+      <h2 id="h2-contact">Contact</h2>
+      <p>Vous pouvez me joindre directement par e-mail&nbsp;:</p>
+      <div class="contact-actions" role="group" aria-label="Actions de contact">
+        <a class="btn" href="mailto:frederic.pallu@mines.org?subject=%5BGitHubProfile%5D%20Contact%20depuis%20fredericpallu.github.io&body=Bonjour%20Fr%C3%A9d%C3%A9ric%2C%0A%0ACe%20message%20a%20%C3%A9t%C3%A9%20%C3%A9mis%20depuis%20votre%20profil%20GitHub%20Pages%20%28https%3A%2F%2Ffredericpallu.github.io%2F%29.%0A%0AObjet%20:%20%0A%0AMessage%20:%20"
+           title="Envoyer un e-mail avec tag d’identification [GitHubProfile]">✉️ Envoyer un message</a>
+        <button class="btn" id="copyMailBtn" type="button" aria-label="Copier l’adresse e-mail">Copier l’e-mail</button>
+        <span id="copyOk" class="copy-ok" aria-live="polite">Copié ✓</span>
+      </div>
+      <p class="meta">L’objet des messages envoyés via ce lien est préfixé par <strong>[GitHubProfile]</strong> pour faciliter le tri côté messagerie.</p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>© 2025 – Frédéric Pallu. Page personnelle hébergée sur GitHub Pages.</p>
+    <p class="meta">Dernière mise à jour : <span id="maj"></span>.</p>
+  </footer>
+
+  <script>
+    // Date FR
+    (function(){
+      var d = new Date(document.lastModified);
+      var fr = d.toLocaleDateString('fr-FR', {day:'2-digit', month:'long', year:'numeric'});
+      var span = document.getElementById('maj'); if(span) span.textContent = fr;
+    })();
+
+    // Copie e-mail
+    (function () {
+      var btn = document.getElementById('copyMailBtn');
+      var ok = document.getElementById('copyOk');
+      if (btn) {
+        btn.addEventListener('click', function () {
+          var mail = 'frederic.pallu@mines.org';
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(mail).then(function () {
+              ok.style.display = 'inline';
+              setTimeout(function(){ ok.style.display = 'none'; }, 1800);
+            });
+          } else {
+            var ta = document.createElement('textarea');
+            ta.value = mail;
+            document.body.appendChild(ta);
+            ta.select();
+            try { document.execCommand('copy'); ok.style.display = 'inline'; setTimeout(function(){ ok.style.display = 'none'; }, 1800); }
+            catch(e) {}
+            document.body.removeChild(ta);
+          }
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
