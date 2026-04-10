@@ -164,6 +164,36 @@
     #chronologie ul{list-style:none;padding-left:0}
     #chronologie li.year{margin:0 0 1rem}
     #chronologie ul.entries{margin:.35rem 0 .75rem 0;padding-left:1.25rem;list-style:disc}
+
+    .legend{
+      display:flex;
+      flex-wrap:wrap;
+      gap:.5rem;
+      margin:.75rem 0 1rem 0;
+    }
+
+    .tag{
+      display:inline-block;
+      padding:.18rem .55rem;
+      border-radius:999px;
+      font-size:.82rem;
+      font-weight:600;
+      border:1px solid transparent;
+      line-height:1.2;
+      white-space:nowrap;
+    }
+
+    .tag-cg{background:#eef3ff;border-color:#cfdcff;color:#284b9b;}
+    .tag-ge{background:#edf8ef;border-color:#cfe8d2;color:#1f6b38;}
+    .tag-sn{background:#eef8fb;border-color:#cde7ef;color:#1f6175;}
+    .tag-sp{background:#fff7e8;border-color:#f1dfb6;color:#8a5a00;}
+    .tag-vc{background:#f6eefb;border-color:#e2d0f0;color:#6f3f8c;}
+    .tag-pl{background:#f3f4f6;border-color:#d8dce2;color:#5a6270;}
+
+    .entry-tag{
+      margin-right:.45rem;
+      vertical-align:baseline;
+    }
   </style>
 </head>
 
@@ -330,124 +360,134 @@
 
     <section id="chronologie" aria-labelledby="h2-chrono">
       <h2 id="h2-chrono">Chronologie (sélection)</h2>
+
+      <div class="legend" aria-label="Légende des catégories d'actions">
+        <span class="tag tag-cg">CG Cadrage / gouvernance</span>
+        <span class="tag tag-ge">GE Gestion écologique</span>
+        <span class="tag tag-sn">SN Suivi naturaliste</span>
+        <span class="tag tag-sp">SP Sensibilisation / pédagogie</span>
+        <span class="tag tag-vc">VC Valorisation / communication</span>
+        <span class="tag tag-pl">PL Planifié</span>
+      </div>
+
       <ul>
 
         <li class="year"><span class="badge">2026</span>
           <ul class="entries">
-            <li>Jeudi <strong>9 avril 2026</strong> : <strong>Campus Nantes</strong> — Conférence de <strong>Dominique Boucharel</strong>, organisée dans le cadre de l'engagement d'IMT Atlantique en faveur de la biodiversité et de son partenariat avec la <strong>LPO France</strong>, consacrée à l'<strong>écoute</strong>, au <strong>décodage</strong> et à l'<strong>identification des oiseaux par leur chant</strong>. Cette action a permis de rappeler que les oiseaux sont d'excellents <strong>bioindicateurs</strong>, souvent plus faciles à entendre qu'à observer, et que leur reconnaissance à l'oreille ouvre des perspectives concrètes pour l'écologie de terrain. Au-delà des apports techniques, cette intervention a également permis un contact sensible avec le vivant, particulièrement apprécié par les étudiants, les personnels et les participants extérieurs. Deux sorties de terrain sur le campus de Nantes, encadrées par Dominique Boucharel, étaient prévues ce week-end pour mettre en pratique ces nouvelles connaissances
+            <li><span class="tag tag-sp entry-tag">SP</span>Jeudi <strong>9 avril 2026</strong> : <strong>Campus Nantes</strong> — Conférence de <strong>Dominique Boucharel</strong>, organisée dans le cadre de l'engagement d'IMT Atlantique en faveur de la biodiversité et de son partenariat avec la <strong>LPO France</strong>, consacrée à l'<strong>écoute</strong>, au <strong>décodage</strong> et à l'<strong>identification des oiseaux par leur chant</strong>. Cette action a permis de rappeler que les oiseaux sont d'excellents <strong>bioindicateurs</strong>, souvent plus faciles à entendre qu'à observer, et que leur reconnaissance à l'oreille ouvre des perspectives concrètes pour l'écologie de terrain. Au-delà des apports techniques, cette intervention a également permis un contact sensible avec le vivant, particulièrement apprécié par les étudiants, les personnels et les participants extérieurs. Deux sorties de terrain sur le campus de Nantes, encadrées par Dominique Boucharel, étaient prévues ce week-end pour mettre en pratique ces nouvelles connaissances
               (<a href="https://www.linkedin.com/posts/fredericpallu_transformation-tes-biodiversitaez-ugcPost-7448294859477729280-hS9f?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAB1InEBsuZSON4Q4KwWY47oj4N_HyaarT8" rel="noopener noreferrer" target="_blank">post LinkedIn</a>).
             </li>
 
-            <li>Mercredi <strong>8 avril 2026</strong> : <strong>Campus Nantes</strong> — Visite de <strong>Bretagne Vivante</strong> pour la préparation des actions de <strong>suivi de la biodiversité</strong> sur le campus.</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>Mercredi <strong>8 avril 2026</strong> : <strong>Campus Nantes</strong> — Visite de <strong>Bretagne Vivante</strong> pour la préparation des actions de <strong>suivi de la biodiversité</strong> sur le campus.</li>
 
-            <li>Mardi <strong>7 avril 2026</strong> : <strong>Campus Nantes</strong> — Nettoyage des emplacements des <strong>plaques de suivi des reptiles</strong> sur le campus. Observation à cette occasion d'une belle <strong>Couleuvre d'Esculape</strong> adulte.</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>Mardi <strong>7 avril 2026</strong> : <strong>Campus Nantes</strong> — Nettoyage des emplacements des <strong>plaques de suivi des reptiles</strong> sur le campus. Observation à cette occasion d'une belle <strong>Couleuvre d'Esculape</strong> adulte.</li>
 
-            <li>Mercredi <strong>26 mars 2026</strong> : <strong>Campus Nantes</strong> — Réouverture de la <strong>lisière sud de la prairie mésophile</strong>, avec abattage de <strong>saules</strong> et d'<strong>aulnes</strong>, ainsi qu'élagage des <strong>chênes</strong>, afin de conserver la fonctionnalité écologique de la prairie. Les ronciers ont été remis en forme, <strong>conservés mais maîtrisés</strong>.</li>
+            <li><span class="tag tag-ge entry-tag">GE</span>Mercredi <strong>26 mars 2026</strong> : <strong>Campus Nantes</strong> — Réouverture de la <strong>lisière sud de la prairie mésophile</strong>, avec abattage de <strong>saules</strong> et d'<strong>aulnes</strong>, ainsi qu'élagage des <strong>chênes</strong>, afin de conserver la fonctionnalité écologique de la prairie. Les ronciers ont été remis en forme, <strong>conservés mais maîtrisés</strong>.</li>
 
-            <li>Jeudi <strong>19 mars 2026</strong> : Sortie encadrée par la <a href="https://www.facebook.com/fdamis.delerdre/" rel="noopener noreferrer" target="_blank">Fédération des Amis de l'Erdre</a>, à la découverte nocturne des mares du Campus Nantes. Recherche des amphibiens et d'autres micro-animaux. Première observation sur le campus du <strong>Triton palmé</strong>, dans une des mares temporaires. Et de la libellule <strong>Aeschne bleue</strong> — une larve a été trouvée — dans la mare forestière du campus.</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>Jeudi <strong>19 mars 2026</strong> : Sortie encadrée par la <a href="https://www.facebook.com/fdamis.delerdre/" rel="noopener noreferrer" target="_blank">Fédération des Amis de l'Erdre</a>, à la découverte nocturne des mares du Campus Nantes. Recherche des amphibiens et d'autres micro-animaux. Première observation sur le campus du <strong>Triton palmé</strong>, dans une des mares temporaires. Et de la libellule <strong>Aeschne bleue</strong> — une larve a été trouvée — dans la mare forestière du campus.</li>
 
-            <li>Samedi <strong>14 février 2026</strong> : IMT Atlantique a eu le plaisir d'accueillir une trentaine de bénévoles de <strong>Bretagne Vivante – SEPNB</strong>, de l'<strong>Atlas entomologique régional</strong> et du <strong>GRETIA</strong> pour une journée de travail consacrée aux <strong>bourdons</strong>. Animée par <strong>Gilles Mahé</strong> (Bretagne Vivante) et <strong>Baptiste Hubert</strong> (GRETIA), cette journée s'inscrivait dans la préparation de la <strong>liste rouge des bourdons des Pays de la Loire</strong>. Les participants ont travaillé sur la méthode de recueil des observations, les modalités de documentation (photo / capture lorsque nécessaire), ainsi que les règles de déontologie encadrant la capture et la manipulation des individus. Les espèces ciblées ont été passées en revue, et les clefs d'identification — à vue, comme sous loupe binoculaire — présentées puis mises en pratique. Cette action s'inscrit dans la déclinaison régionale du <strong>plan pollinisateurs</strong> porté par la <strong>DREAL Pays de la Loire</strong> et illustre pleinement l'axe <strong>Transformation écologique et sociétale</strong> d'IMT Atlantique.</li>
+            <li><span class="tag tag-sp entry-tag">SP</span>Samedi <strong>14 février 2026</strong> : IMT Atlantique a eu le plaisir d'accueillir une trentaine de bénévoles de <strong>Bretagne Vivante – SEPNB</strong>, de l'<strong>Atlas entomologique régional</strong> et du <strong>GRETIA</strong> pour une journée de travail consacrée aux <strong>bourdons</strong>. Animée par <strong>Gilles Mahé</strong> (Bretagne Vivante) et <strong>Baptiste Hubert</strong> (GRETIA), cette journée s'inscrivait dans la préparation de la <strong>liste rouge des bourdons des Pays de la Loire</strong>. Les participants ont travaillé sur la méthode de recueil des observations, les modalités de documentation (photo / capture lorsque nécessaire), ainsi que les règles de déontologie encadrant la capture et la manipulation des individus. Les espèces ciblées ont été passées en revue, et les clefs d'identification — à vue, comme sous loupe binoculaire — présentées puis mises en pratique. Cette action s'inscrit dans la déclinaison régionale du <strong>plan pollinisateurs</strong> porté par la <strong>DREAL Pays de la Loire</strong> et illustre pleinement l'axe <strong>Transformation écologique et sociétale</strong> d'IMT Atlantique.</li>
 
-            <li>Deuxième quinzaine février 2026 : Action de <strong>réouverture de la prairie mésophile</strong> du campus Nantes d'IMT Atlantique, avec <strong>abattage des arbres</strong> gagnant sur la prairie depuis le marais de la Conardière ; <strong>contrôle des ronciers</strong> pour les conserver à une taille raisonnable.</li>
+            <li><span class="tag tag-ge entry-tag">GE</span>Deuxième quinzaine février 2026 : Action de <strong>réouverture de la prairie mésophile</strong> du campus Nantes d'IMT Atlantique, avec <strong>abattage des arbres</strong> gagnant sur la prairie depuis le marais de la Conardière ; <strong>contrôle des ronciers</strong> pour les conserver à une taille raisonnable.</li>
 
-            <li>Février 2026 : Dans le cadre du <strong>suivi de la faune</strong> du campus Nantes d'IMT Atlantique, et du <strong>comptage des oiseaux des jardins</strong> (MNHN, LPO), <strong>documentation de l'avifaune</strong> du campus sur iNaturalist
+            <li><span class="tag tag-sn entry-tag">SN</span>Février 2026 : Dans le cadre du <strong>suivi de la faune</strong> du campus Nantes d'IMT Atlantique, et du <strong>comptage des oiseaux des jardins</strong> (MNHN, LPO), <strong>documentation de l'avifaune</strong> du campus sur iNaturalist
               (<a href="https://www.inaturalist.org/projects/imt-atlantique-campus-nantes?tab=observations" rel="noopener noreferrer">observations</a>)
               et <strong>mise en ligne d'une vidéo de synthèse</strong> sur les observations du piège photo posé par les étudiants
               (<a href="https://www.youtube.com/watch?v=vFpTGmKUMDg&amp;list=PLc7LZZUWmqH36gjIryQBBr4ucjhpOPcto" rel="noopener noreferrer">vidéo</a>).
             </li>
 
-            <li>Première quinzaine février 2026 : Ajout de clauses <strong>« biodiversité »</strong> dans le <strong>CCTP</strong> du marché de gestion des espaces verts en cours de rédaction pour les campus de <strong>Brest, Nantes, Rennes</strong>.</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>Première quinzaine février 2026 : Ajout de clauses <strong>« biodiversité »</strong> dans le <strong>CCTP</strong> du marché de gestion des espaces verts en cours de rédaction pour les campus de <strong>Brest, Nantes, Rennes</strong>.</li>
 
-            <li>Jeudi <strong>5 février 2026</strong> : <a href="https://www.linkedin.com/posts/fredericpallu_biodiversit%C3%A9-odd13-sdg13-activity-7425595579780661248-XDLW/?originalSubdomain=fr" rel="noopener noreferrer" target="_blank">Animation d'une Fresque de la biodiversité</a> à l'intention des étudiants et personnels intéressés. Nos étudiants et personnels ont du talent, les questions étaient excellentes…</li>
+            <li><span class="tag tag-sp entry-tag">SP</span>Jeudi <strong>5 février 2026</strong> : <a href="https://www.linkedin.com/posts/fredericpallu_biodiversit%C3%A9-odd13-sdg13-activity-7425595579780661248-XDLW/?originalSubdomain=fr" rel="noopener noreferrer" target="_blank">Animation d'une Fresque de la biodiversité</a> à l'intention des étudiants et personnels intéressés. Nos étudiants et personnels ont du talent, les questions étaient excellentes…</li>
 
-            <li>Dimanche <strong>25 janvier 2026</strong> : <strong>Comptage des oiseaux des jardins</strong> (action MNHN/LPO/Bretagne Vivante) sur le campus de Nantes d'IMT Atlantique. Deux sessions préparatoires les <strong>22</strong> et <strong>23</strong> janvier avec étudiants et personnels.</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>Dimanche <strong>25 janvier 2026</strong> : <strong>Comptage des oiseaux des jardins</strong> (action MNHN/LPO/Bretagne Vivante) sur le campus de Nantes d'IMT Atlantique. Deux sessions préparatoires les <strong>22</strong> et <strong>23</strong> janvier avec étudiants et personnels.</li>
           </ul>
         </li>
 
         <li class="year"><span class="badge">2025</span>
           <ul class="entries">
-            <li>Mi-novembre 2025 : Construction de <strong>3 nichoirs</strong> à <strong>mésanges bleues</strong> avec étudiants et personnels, puis <strong>installation</strong> des nichoirs dans le bois en libre évolution du campus.</li>
+            <li><span class="tag tag-sp entry-tag">SP</span>Mi-novembre 2025 : Construction de <strong>3 nichoirs</strong> à <strong>mésanges bleues</strong> avec étudiants et personnels, puis <strong>installation</strong> des nichoirs dans le bois en libre évolution du campus.</li>
 
-            <li>Novembre 2025 : Caméra-piège — première observation de
+            <li><span class="tag tag-vc entry-tag">VC</span>Novembre 2025 : Caméra-piège — première observation de
               <a href="https://www.inaturalist.org/projects/imt-atlantique" rel="noopener noreferrer"><em>Chouette hulotte</em></a> ;
               mise en ligne des vidéos sur <a href="https://www.youtube.com/@biodivimtatlantique" rel="noopener noreferrer">YouTube</a>.
             </li>
 
-            <li>Lundi <strong>3 novembre 2025</strong> : Accueil de la <strong>LPO 44</strong> pour une conférence introductive sur les oiseaux. Comment les reconnaître à leur forme et leur plumage ? Comment les reconnaître à leur chant ?</li>
+            <li><span class="tag tag-sp entry-tag">SP</span>Lundi <strong>3 novembre 2025</strong> : Accueil de la <strong>LPO 44</strong> pour une conférence introductive sur les oiseaux. Comment les reconnaître à leur forme et leur plumage ? Comment les reconnaître à leur chant ?</li>
 
-            <li>10 octobre 2025 : Présentation des enjeux sur la biodiversité aux étudiants du <strong>BDD – Bureau du développement durable – Nantes</strong> élus en 2025, et à des étudiants intéressés pour le mandat 2026. Présentation des actions biodiversité sur le campus et des <strong>coopérations possibles</strong>.</li>
+            <li><span class="tag tag-sp entry-tag">SP</span>10 octobre 2025 : Présentation des enjeux sur la biodiversité aux étudiants du <strong>BDD – Bureau du développement durable – Nantes</strong> élus en 2025, et à des étudiants intéressés pour le mandat 2026. Présentation des actions biodiversité sur le campus et des <strong>coopérations possibles</strong>.</li>
 
-            <li>Septembre 2025 : Campus Nantes – Première réalisation d'une fauche avec export (environ <strong>5&nbsp;tonnes</strong> de matière) des espaces verts dans le cadre de la gestion différenciée.</li>
+            <li><span class="tag tag-ge entry-tag">GE</span>Septembre 2025 : Campus Nantes – Première réalisation d'une fauche avec export (environ <strong>5&nbsp;tonnes</strong> de matière) des espaces verts dans le cadre de la gestion différenciée.</li>
 
-            <li>Juillet 2025 : Mise en œuvre du <a href="https://www.vigienature.fr/fr/propage" rel="noopener noreferrer">protocole PROPAGE</a> de suivi de la qualité biologique des espaces verts sur les campus de Nantes et de Rennes.</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>Juillet 2025 : Mise en œuvre du <a href="https://www.vigienature.fr/fr/propage" rel="noopener noreferrer">protocole PROPAGE</a> de suivi de la qualité biologique des espaces verts sur les campus de Nantes et de Rennes.</li>
 
-            <li>Juin 2025 : Mise en œuvre du <a href="https://www.vigienature.fr/fr/propage" rel="noopener noreferrer">protocole PROPAGE</a> de suivi de la qualité biologique des espaces verts sur les campus de Nantes et de Rennes.</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>Juin 2025 : Mise en œuvre du <a href="https://www.vigienature.fr/fr/propage" rel="noopener noreferrer">protocole PROPAGE</a> de suivi de la qualité biologique des espaces verts sur les campus de Nantes et de Rennes.</li>
 
-            <li>Mai 2025 : Rédaction du bilan des deux années d'inventaire entomologique GRETIA (2023–2024) pour Nantes, Brest et Rennes.</li>
+            <li><span class="tag tag-vc entry-tag">VC</span>Mai 2025 : Rédaction du bilan des deux années d'inventaire entomologique GRETIA (2023–2024) pour Nantes, Brest et Rennes.</li>
 
-            <li>Avril 2025 : Extraction des données GRETIA (09/04/2025) pour l'analyse de répartition des araignées <em>Oedothorax retusus</em> et <em>Philodromus praedatus</em>.</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>Avril 2025 : Extraction des données GRETIA (09/04/2025) pour l'analyse de répartition des araignées <em>Oedothorax retusus</em> et <em>Philodromus praedatus</em>.</li>
 
-            <li>31 mars 2025 : Date limite de réception des rendus pour l'avenant GRETIA (année 2024).</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>31 mars 2025 : Date limite de réception des rendus pour l'avenant GRETIA (année 2024).</li>
 
-            <li>2025–2030 (planifié) : Mise en œuvre du PNA « Vipères de France » (durée 5 ans).</li>
+            <li><span class="tag tag-pl entry-tag">PL</span>2025–2030 (planifié) : Mise en œuvre du PNA « Vipères de France » (durée 5 ans).</li>
 
-            <li>2025–2027 (planifié) : Déploiement du plan de gestion des espaces verts intégrant la <strong>fauche avec export</strong>.</li>
+            <li><span class="tag tag-pl entry-tag">PL</span>2025–2027 (planifié) : Déploiement du plan de gestion des espaces verts intégrant la <strong>fauche avec export</strong>.</li>
           </ul>
         </li>
 
         <li class="year"><span class="badge">2024</span>
           <ul class="entries">
-            <li>27 novembre 2024 (planifié) : Présentation au Muséum d'histoire naturelle de Nantes sur la biodiversité du campus et les populations de reptiles/amphibiens (avec Bretagne Vivante).</li>
-            <li>Octobre 2024 : Démarche auprès de l'Agence de l'Eau Loire Bretagne (courrier du 7/10) pour la <strong>désimperméabilisation de 1 350 m²</strong> (rue Alfred Kastler) — objectif Fonds Vert.</li>
-            <li>3 septembre 2024 : Sortie terrain FISE (UE MINUTO – TES) avec Jean-Marie Dréan (Bretagne Vivante) sur les effets du changement climatique (campus Nantes).</li>
-            <li>6 septembre 2024 : Publication « Les nouveaux étudiants sensibilisés à la biodiversité dès la rentrée ! »</li>
-            <li>28 août 2024 : Signature de l'avenant GRETIA (année 2024).</li>
-            <li>21 août 2024 : Premier relevé <strong>PROPAGE</strong> au campus de Nantes.</li>
-            <li>11/06, 13/06, 05/07, 16/07, 18/07, 02/08 2024 : Prospections entomologiques GRETIA (Brest, Nantes, Rennes) incluant passages PROPAGE.</li>
-            <li>2024 : Mémoire DESU (M1) « Biodiversité, villes et territoires » (cohabitation <em>Apis mellifera</em>/pollinisateurs sauvages à Nantes).</li>
-            <li>28 janvier 2024 : Participation au comptage annuel des oiseaux des jardins (LPO, Bretagne Vivante, Muséum) – campus Nantes.</li>
+            <li><span class="tag tag-pl entry-tag">PL</span>27 novembre 2024 (planifié) : Présentation au Muséum d'histoire naturelle de Nantes sur la biodiversité du campus et les populations de reptiles/amphibiens (avec Bretagne Vivante).</li>
+            <li><span class="tag tag-ge entry-tag">GE</span>Octobre 2024 : Démarche auprès de l'Agence de l'Eau Loire Bretagne (courrier du 7/10) pour la <strong>désimperméabilisation de 1 350 m²</strong> (rue Alfred Kastler) — objectif Fonds Vert.</li>
+            <li><span class="tag tag-sp entry-tag">SP</span>3 septembre 2024 : Sortie terrain FISE (UE MINUTO – TES) avec Jean-Marie Dréan (Bretagne Vivante) sur les effets du changement climatique (campus Nantes).</li>
+            <li><span class="tag tag-vc entry-tag">VC</span>6 septembre 2024 : Publication « Les nouveaux étudiants sensibilisés à la biodiversité dès la rentrée ! »</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>28 août 2024 : Signature de l'avenant GRETIA (année 2024).</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>21 août 2024 : Premier relevé <strong>PROPAGE</strong> au campus de Nantes.</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>11/06, 13/06, 05/07, 16/07, 18/07, 02/08 2024 : Prospections entomologiques GRETIA (Brest, Nantes, Rennes) incluant passages PROPAGE.</li>
+            <li><span class="tag tag-sp entry-tag">SP</span>2024 : Mémoire DESU (M1) « Biodiversité, villes et territoires » (cohabitation <em>Apis mellifera</em>/pollinisateurs sauvages à Nantes).</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>28 janvier 2024 : Participation au comptage annuel des oiseaux des jardins (LPO, Bretagne Vivante, Muséum) – campus Nantes.</li>
           </ul>
         </li>
 
         <li class="year"><span class="badge">2023</span>
           <ul class="entries">
-            <li>Automne 2023 : <strong>Restauration complète de la mare forestière</strong> (campus Nantes).</li>
-            <li>Automne 2023 : <strong>Plantation</strong> de haies arbustives (bordure ouest) et premiers arbres fruitiers (campus Nantes).</li>
-            <li>Septembre 2023 : Mémoire DU (L3) « Biodiversité, écosystèmes, territoires » (UL) — mention très bien. Sujet : « Quel corpus de formation à la biodiversité pour les grandes écoles qui ne sont pas sur le champ du vivant ? »</li>
-            <li>Septembre 2023 : Évolution du programme de 1re année — intégration du thème <strong>effondrement de la biodiversité</strong> (UE TES).</li>
-            <li>Juin 2023 : Déploiement du <strong>plan de tonte différenciée</strong> (campus Nantes).</li>
-            <li>Mai–juin 2023 : Prospections GRETIA (3e année d'inventaire : abeilles, hémiptères, coccinelles) avec participation de personnels.</li>
-            <li>Mai 2023 : Observations — Lézard à deux raies et <strong>Vipère aspic</strong> (protocole POPreptiles) sur le campus Nantes.</li>
-            <li>06 mars 2023 : Validation de la <strong>Politique particulière « biodiversité » 2022–2024</strong> par le directeur C. Lerouge.</li>
-            <li>02 mars 2023 : Diagnostic de la mare forestière (Fédération des Ami·es de l'Erdre).</li>
-            <li>Janvier 2023 : Comptage annuel des oiseaux des jardins (LPO) — campus Nantes.</li>
+            <li><span class="tag tag-ge entry-tag">GE</span>Automne 2023 : <strong>Restauration complète de la mare forestière</strong> (campus Nantes).</li>
+            <li><span class="tag tag-ge entry-tag">GE</span>Automne 2023 : <strong>Plantation</strong> de haies arbustives (bordure ouest) et premiers arbres fruitiers (campus Nantes).</li>
+            <li><span class="tag tag-sp entry-tag">SP</span>Septembre 2023 : Mémoire DU (L3) « Biodiversité, écosystèmes, territoires » (UL) — mention très bien. Sujet : « Quel corpus de formation à la biodiversité pour les grandes écoles qui ne sont pas sur le champ du vivant ? »</li>
+            <li><span class="tag tag-sp entry-tag">SP</span>Septembre 2023 : Évolution du programme de 1re année — intégration du thème <strong>effondrement de la biodiversité</strong> (UE TES).</li>
+            <li><span class="tag tag-ge entry-tag">GE</span>Juin 2023 : Déploiement du <strong>plan de tonte différenciée</strong> (campus Nantes).</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>Mai–juin 2023 : Prospections GRETIA (3e année d'inventaire : abeilles, hémiptères, coccinelles) avec participation de personnels.</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>Mai 2023 : Observations — Lézard à deux raies et <strong>Vipère aspic</strong> (protocole POPreptiles) sur le campus Nantes.</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>06 mars 2023 : Validation de la <strong>Politique particulière « biodiversité » 2022–2024</strong> par le directeur C. Lerouge.</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>02 mars 2023 : Diagnostic de la mare forestière (Fédération des Ami·es de l'Erdre).</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>Janvier 2023 : Comptage annuel des oiseaux des jardins (LPO) — campus Nantes.</li>
           </ul>
         </li>
 
         <li class="year"><span class="badge">2022</span>
           <ul class="entries">
-            <li>07 décembre 2022 : Signature de la <strong>Convention Campus Nantes</strong> avec Nantes Métropole (soutien 2022–2024).</li>
-            <li>Novembre 2022 : Installation et suivi de <strong>8 plaques à reptiles</strong> (campus Nantes) avec Bretagne Vivante.</li>
-            <li>Novembre 2022 : Conventions Bretagne Vivante (10 nov. Brest, 15 nov. Nantes) et adhésion <strong>Espace Regain</strong> pour les trois campus (1er établissement d'ES à recevoir ce label).</li>
-            <li>27 septembre 2022 : Parcours découverte biodiversité du campus avec Bretagne Vivante.</li>
-            <li>Mai–juin 2022 : Inventaires abeilles sauvages (2e année) par GRETIA — Nantes (13 mai, 10 juin) ; Brest (3 mai, 13 juin).</li>
-            <li>13 mai 2022 : Publication « Esquisse Paysage » (Atelier Broussaille) pour la requalification Sud-Ouest du campus Nantes.</li>
-            <li>06 avril 2022 : Atelier 3 (Esquisse) — concertation Atelier Broussaille.</li>
-            <li>15 mars 2022 : Atelier 2 (Orientations) — concertation Atelier Broussaille.</li>
-            <li>01 mars 2022 : Atelier 1 (Diagnostic &amp; Enjeux) — concertation Atelier Broussaille.</li>
-            <li>Janvier 2022 : Politique TES v2.1 révisée.</li>
-            <li>17 janvier 2022 : Convention Fédération des Ami·es de l'Erdre (continuité écologique avec le Marais de la Conardière).</li>
-            <li>Janvier 2022 : Comptage des oiseaux des jardins (29–30 janvier) — campus Nantes.</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>07 décembre 2022 : Signature de la <strong>Convention Campus Nantes</strong> avec Nantes Métropole (soutien 2022–2024).</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>Novembre 2022 : Installation et suivi de <strong>8 plaques à reptiles</strong> (campus Nantes) avec Bretagne Vivante.</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>Novembre 2022 : Conventions Bretagne Vivante (10 nov. Brest, 15 nov. Nantes) et adhésion <strong>Espace Regain</strong> pour les trois campus (1er établissement d'ES à recevoir ce label).</li>
+            <li><span class="tag tag-sp entry-tag">SP</span>27 septembre 2022 : Parcours découverte biodiversité du campus avec Bretagne Vivante.</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>Mai–juin 2022 : Inventaires abeilles sauvages (2e année) par GRETIA — Nantes (13 mai, 10 juin) ; Brest (3 mai, 13 juin).</li>
+            <li><span class="tag tag-vc entry-tag">VC</span>13 mai 2022 : Publication « Esquisse Paysage » (Atelier Broussaille) pour la requalification Sud-Ouest du campus Nantes.</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>06 avril 2022 : Atelier 3 (Esquisse) — concertation Atelier Broussaille.</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>15 mars 2022 : Atelier 2 (Orientations) — concertation Atelier Broussaille.</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>01 mars 2022 : Atelier 1 (Diagnostic &amp; Enjeux) — concertation Atelier Broussaille.</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>Janvier 2022 : Politique TES v2.1 révisée.</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>17 janvier 2022 : Convention Fédération des Ami·es de l'Erdre (continuité écologique avec le Marais de la Conardière).</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>Janvier 2022 : Comptage des oiseaux des jardins (29–30 janvier) — campus Nantes.</li>
           </ul>
         </li>
 
         <li class="year"><span class="badge">2021</span>
           <ul class="entries">
-            <li>Décembre 2021 : Visite sur site d'un représentant LPO organisée par un groupe d'étudiants (16 déc.).</li>
-            <li>Novembre 2021 : Présentation des grandes lignes de la politique TES en Conseil d'École.</li>
-            <li>20 octobre 2021 : Convention particulière avec <strong>ONIRIS CVFS</strong> (expertise biodiversité &amp; pollinisateurs sauvages).</li>
-            <li>Juillet/août 2021 : Premier sondage d'inventaire des abeilles sauvages (pré-inventaire) par GRETIA — Brest (30 juil.), Nantes (8 juil., 19 août).</li>
-            <li>Mars 2021 : Début d'élaboration de la Politique TES.</li>
+            <li><span class="tag tag-sp entry-tag">SP</span>Décembre 2021 : Visite sur site d'un représentant LPO organisée par un groupe d'étudiants (16 déc.).</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>Novembre 2021 : Présentation des grandes lignes de la politique TES en Conseil d'École.</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>20 octobre 2021 : Convention particulière avec <strong>ONIRIS CVFS</strong> (expertise biodiversité &amp; pollinisateurs sauvages).</li>
+            <li><span class="tag tag-sn entry-tag">SN</span>Juillet/août 2021 : Premier sondage d'inventaire des abeilles sauvages (pré-inventaire) par GRETIA — Brest (30 juil.), Nantes (8 juil., 19 août).</li>
+            <li><span class="tag tag-cg entry-tag">CG</span>Mars 2021 : Début d'élaboration de la Politique TES.</li>
           </ul>
         </li>
 
